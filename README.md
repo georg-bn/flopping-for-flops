@@ -23,6 +23,10 @@
     <em>Flopping for FLOPs showcases how flopping (horizontal mirroring) equivariant networks can enhance modern vision architectures by preserving or improving accuracy while using half of the number of FLOPs (floating point operations).</em>
 </p>
 
+
+## News
+- Want rotation equivariance in addition to flopping equivariance? Check out [Octic ViTs](https://github.com/davnords/octic-vits.git)!
+
 ## Setup/Install
 
 To be compatibly with the [DeiT](https://github.com/facebookresearch/deit) repository, we use [NVIDIA apex](https://github.com/NVIDIA/apex). Thus, you must compile apex. Begin by creating a new virtual environment for Python, we use conda and Python 3.10. Then: 
