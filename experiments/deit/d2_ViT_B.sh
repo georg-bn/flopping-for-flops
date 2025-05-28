@@ -1,0 +1,33 @@
+python deit/run_with_submitit.py \
+    --model d2_deit_base_patch16_LS \
+    --batch 512 \
+    --lr 3e-3 \
+    --drop-path 0.1 \
+    --epochs 400 \
+    --weight-decay 0.02 \
+    --sched cosine \
+    --input-size 224 \
+    --reprob 0.0 \
+    --color-jitter 0.3 \
+    --eval-crop-ratio 1.0 \
+    --nodes 1 \
+    --ngpus 4 \
+    --smoothing 0.0 \
+    --warmup-epochs 5 \
+    --drop 0.0 \
+    --seed 0 \
+    --opt fusedlamb \
+    --warmup-lr 1e-6 \
+    --mixup .8 \
+    --cutmix 1.0 \
+    --unscale-lr \
+    --repeated-aug \
+    --bce-loss \
+    --ThreeAugment \
+    --high-precision-matmul \
+    --fused-attn \
+    --use-amp \
+    --no-zip-dataloader \
+    --tgpu A100fat \
+    --compile \
+    

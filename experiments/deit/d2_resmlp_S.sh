@@ -1,0 +1,31 @@
+python deit/run_with_submitit.py \
+    --model resmlp_equi_d2_24 \
+    --batch 256 \
+    --lr 5e-3 \
+    --drop-path 0.2 \
+    --epochs 400 \
+    --weight-decay 0.2 \
+    --sched cosine \
+    --input-size 224 \
+    --reprob 0.25 \
+    --color-jitter 0.3 \
+    --eval-crop-ratio 1.0 \
+    --nodes 2 \
+    --ngpus 4 \
+    --smoothing 0.1 \
+    --warmup-epochs 5 \
+    --drop 0.0 \
+    --seed 1337 \
+    --opt fusedlamb \
+    --warmup-lr 1e-6 \
+    --mixup .8 \
+    --cutmix 1.0 \
+    --aa rand-m9-mstd0.5-inc1 \
+    --unscale-lr \
+    --repeated-aug \
+    --high-precision-matmul \
+    --fused-attn \
+    --no-use-amp \
+    --no-zip-dataloader \
+    --tgpu A100 \
+    --compile \

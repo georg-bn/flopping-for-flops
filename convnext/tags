@@ -1,0 +1,1209 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Block	models/convnext.py	/^class Block(nn.Module):$/;"	c
+Block	object_detection/mmdet/models/backbones/convnext.py	/^class Block(nn.Module):$/;"	c
+Block	semantic_segmentation/backbone/convnext.py	/^class Block(nn.Module):$/;"	c
+ConvNeXt	models/convnext.py	/^class ConvNeXt(nn.Module):$/;"	c
+ConvNeXt	object_detection/mmdet/models/backbones/convnext.py	/^class ConvNeXt(nn.Module):$/;"	c
+ConvNeXt	semantic_segmentation/backbone/convnext.py	/^class ConvNeXt(nn.Module):$/;"	c
+ConvNeXtIsotropic	models/convnext_isotropic.py	/^class ConvNeXtIsotropic(nn.Module):$/;"	c
+CustomizedTextLoggerHook	object_detection/mmcv_custom/customized_text.py	/^class CustomizedTextLoggerHook(TextLoggerHook):$/;"	c
+CustomizedTextLoggerHook	semantic_segmentation/mmcv_custom/customized_text.py	/^class CustomizedTextLoggerHook(TextLoggerHook):$/;"	c
+LayerDecayValueAssigner	optim_factory.py	/^class LayerDecayValueAssigner(object):$/;"	c
+LayerNorm	models/convnext.py	/^class LayerNorm(nn.Module):$/;"	c
+LayerNorm	object_detection/mmdet/models/backbones/convnext.py	/^class LayerNorm(nn.Module):$/;"	c
+LayerNorm	semantic_segmentation/backbone/convnext.py	/^class LayerNorm(nn.Module):$/;"	c
+LearningRateDecayOptimizerConstructor	object_detection/mmcv_custom/layer_decay_optimizer_constructor.py	/^class LearningRateDecayOptimizerConstructor(DefaultOptimizerConstructor):$/;"	c
+LearningRateDecayOptimizerConstructor	semantic_segmentation/mmcv_custom/layer_decay_optimizer_constructor.py	/^class LearningRateDecayOptimizerConstructor(DefaultOptimizerConstructor):$/;"	c
+MetricLogger	utils.py	/^class MetricLogger(object):$/;"	c
+NativeScalerWithGradNormCount	utils.py	/^class NativeScalerWithGradNormCount:$/;"	c
+SmoothedValue	utils.py	/^class SmoothedValue(object):$/;"	c
+TensorboardLogger	utils.py	/^class TensorboardLogger(object):$/;"	c
+Trainer	run_with_submitit.py	/^class Trainer(object):$/;"	c
+WandbLogger	utils.py	/^class WandbLogger(object):$/;"	c
+__all__	object_detection/mmcv_custom/__init__.py	/^__all__ = ['load_checkpoint', 'LearningRateDecayOptimizerConstructor', 'CustomizedTextLoggerHook']$/;"	v
+__all__	object_detection/mmdet/models/backbones/__init__.py	/^__all__ = [$/;"	v
+__all__	semantic_segmentation/mmcv_custom/__init__.py	/^__all__ = ['load_checkpoint', 'LearningRateDecayOptimizerConstructor', 'SETR_Resize', 'DistOptimizerHook', 'train_segmentor', 'CustomizedTextLoggerHook']$/;"	v
+__call__	run_with_submitit.py	/^    def __call__(self):$/;"	m	class:Trainer	file:
+__call__	utils.py	/^    def __call__(self, loss, optimizer, clip_grad=None, parameters=None, create_graph=False, update_grad=True):$/;"	m	class:NativeScalerWithGradNormCount	file:
+__getattr__	utils.py	/^    def __getattr__(self, attr):$/;"	m	class:MetricLogger	file:
+__init__	models/convnext.py	/^    def __init__(self, dim, drop_path=0., layer_scale_init_value=1e-6):$/;"	m	class:Block
+__init__	models/convnext.py	/^    def __init__(self, in_chans=3, num_classes=1000, $/;"	m	class:ConvNeXt
+__init__	models/convnext.py	/^    def __init__(self, normalized_shape, eps=1e-6, data_format="channels_last"):$/;"	m	class:LayerNorm
+__init__	models/convnext_isotropic.py	/^    def __init__(self, in_chans=3, num_classes=1000, $/;"	m	class:ConvNeXtIsotropic
+__init__	object_detection/mmdet/models/backbones/convnext.py	/^    def __init__(self, dim, drop_path=0., layer_scale_init_value=1e-6):$/;"	m	class:Block
+__init__	object_detection/mmdet/models/backbones/convnext.py	/^    def __init__(self, in_chans=3, depths=[3, 3, 9, 3], dims=[96, 192, 384, 768], $/;"	m	class:ConvNeXt
+__init__	object_detection/mmdet/models/backbones/convnext.py	/^    def __init__(self, normalized_shape, eps=1e-6, data_format="channels_last"):$/;"	m	class:LayerNorm
+__init__	optim_factory.py	/^    def __init__(self, values):$/;"	m	class:LayerDecayValueAssigner
+__init__	run_with_submitit.py	/^    def __init__(self, args):$/;"	m	class:Trainer
+__init__	semantic_segmentation/backbone/convnext.py	/^    def __init__(self, dim, drop_path=0., layer_scale_init_value=1e-6):$/;"	m	class:Block
+__init__	semantic_segmentation/backbone/convnext.py	/^    def __init__(self, in_chans=3, depths=[3, 3, 9, 3], dims=[96, 192, 384, 768], $/;"	m	class:ConvNeXt
+__init__	semantic_segmentation/backbone/convnext.py	/^    def __init__(self, normalized_shape, eps=1e-6, data_format="channels_last"):$/;"	m	class:LayerNorm
+__init__	utils.py	/^    def __init__(self):$/;"	m	class:NativeScalerWithGradNormCount
+__init__	utils.py	/^    def __init__(self, args):$/;"	m	class:WandbLogger
+__init__	utils.py	/^    def __init__(self, delimiter="\\t"):$/;"	m	class:MetricLogger
+__init__	utils.py	/^    def __init__(self, log_dir):$/;"	m	class:TensorboardLogger
+__init__	utils.py	/^    def __init__(self, window_size=20, fmt=None):$/;"	m	class:SmoothedValue
+__str__	utils.py	/^    def __str__(self):$/;"	m	class:MetricLogger	file:
+__str__	utils.py	/^    def __str__(self):$/;"	m	class:SmoothedValue	file:
+_base_	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^_base_ = [$/;"	v
+_base_	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^_base_ = [$/;"	v
+_base_	object_detection/configs/convnext/cascade_mask_rcnn_convnext_large_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^_base_ = [$/;"	v
+_base_	object_detection/configs/convnext/cascade_mask_rcnn_convnext_small_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^_base_ = [$/;"	v
+_base_	object_detection/configs/convnext/cascade_mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^_base_ = [$/;"	v
+_base_	object_detection/configs/convnext/cascade_mask_rcnn_convnext_xlarge_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^_base_ = [$/;"	v
+_base_	object_detection/configs/convnext/mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_adamw_3x_coco_in1k.py	/^_base_ = [$/;"	v
+_base_	semantic_segmentation/configs/convnext/upernet_convnext_base_512_160k_ade20k_ms.py	/^_base_ = [$/;"	v
+_base_	semantic_segmentation/configs/convnext/upernet_convnext_base_512_160k_ade20k_ss.py	/^_base_ = [$/;"	v
+_base_	semantic_segmentation/configs/convnext/upernet_convnext_base_640_160k_ade20k_ms.py	/^_base_ = [$/;"	v
+_base_	semantic_segmentation/configs/convnext/upernet_convnext_base_640_160k_ade20k_ss.py	/^_base_ = [$/;"	v
+_base_	semantic_segmentation/configs/convnext/upernet_convnext_large_640_160k_ade20k_ms.py	/^_base_ = [$/;"	v
+_base_	semantic_segmentation/configs/convnext/upernet_convnext_large_640_160k_ade20k_ss.py	/^_base_ = [$/;"	v
+_base_	semantic_segmentation/configs/convnext/upernet_convnext_small_512_160k_ade20k_ms.py	/^_base_ = [$/;"	v
+_base_	semantic_segmentation/configs/convnext/upernet_convnext_small_512_160k_ade20k_ss.py	/^_base_ = [$/;"	v
+_base_	semantic_segmentation/configs/convnext/upernet_convnext_tiny_512_160k_ade20k_ms.py	/^_base_ = [$/;"	v
+_base_	semantic_segmentation/configs/convnext/upernet_convnext_tiny_512_160k_ade20k_ss.py	/^_base_ = [$/;"	v
+_base_	semantic_segmentation/configs/convnext/upernet_convnext_xlarge_640_160k_ade20k_ms.py	/^_base_ = [$/;"	v
+_base_	semantic_segmentation/configs/convnext/upernet_convnext_xlarge_640_160k_ade20k_ss.py	/^_base_ = [$/;"	v
+_init_weights	models/convnext.py	/^    def _init_weights(self, m):$/;"	m	class:ConvNeXt
+_init_weights	models/convnext_isotropic.py	/^    def _init_weights(self, m):$/;"	m	class:ConvNeXtIsotropic
+_init_weights	object_detection/mmdet/models/backbones/convnext.py	/^        def _init_weights(m):$/;"	f	function:ConvNeXt.init_weights
+_init_weights	object_detection/mmdet/models/backbones/convnext.py	/^    def _init_weights(self, m):$/;"	m	class:ConvNeXt
+_init_weights	semantic_segmentation/backbone/convnext.py	/^        def _init_weights(m):$/;"	f	function:ConvNeXt.init_weights
+_init_weights	semantic_segmentation/backbone/convnext.py	/^    def _init_weights(self, m):$/;"	m	class:ConvNeXt
+_log_info	object_detection/mmcv_custom/customized_text.py	/^    def _log_info(self, log_dict, runner):$/;"	m	class:CustomizedTextLoggerHook
+_log_info	semantic_segmentation/mmcv_custom/customized_text.py	/^    def _log_info(self, log_dict, runner):$/;"	m	class:CustomizedTextLoggerHook
+_setup_gpu_args	run_with_submitit.py	/^    def _setup_gpu_args(self):$/;"	m	class:Trainer
+add_gt_as_proposals	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^                    add_gt_as_proposals=True),$/;"	v
+add_gt_as_proposals	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^                add_gt_as_proposals=False),$/;"	v
+add_gt_as_proposals	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^                add_gt_as_proposals=False),$/;"	v
+add_gt_as_proposals	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^                add_gt_as_proposals=True),$/;"	v
+add_meter	utils.py	/^    def add_meter(self, name, meter):$/;"	m	class:MetricLogger
+add_params	object_detection/mmcv_custom/layer_decay_optimizer_constructor.py	/^    def add_params(self, params, module, prefix='', is_dcn_module=None):$/;"	m	class:LearningRateDecayOptimizerConstructor
+add_params	semantic_segmentation/mmcv_custom/layer_decay_optimizer_constructor.py	/^    def add_params(self, params, module, prefix='', is_dcn_module=None):$/;"	m	class:LearningRateDecayOptimizerConstructor
+align_corners	semantic_segmentation/configs/_base_/models/upernet_convnext.py	/^        align_corners=False,$/;"	v
+allow_negative_crop	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                      allow_negative_crop=True),$/;"	v
+allow_negative_crop	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                      allow_negative_crop=True),$/;"	v
+allow_negative_crop	object_detection/configs/convnext/cascade_mask_rcnn_convnext_large_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                      allow_negative_crop=True),$/;"	v
+allow_negative_crop	object_detection/configs/convnext/cascade_mask_rcnn_convnext_small_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                      allow_negative_crop=True),$/;"	v
+allow_negative_crop	object_detection/configs/convnext/cascade_mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                      allow_negative_crop=True),$/;"	v
+allow_negative_crop	object_detection/configs/convnext/cascade_mask_rcnn_convnext_xlarge_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                      allow_negative_crop=True),$/;"	v
+allow_negative_crop	object_detection/configs/convnext/mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_adamw_3x_coco_in1k.py	/^                      allow_negative_crop=True),$/;"	v
+allowed_border	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^            allowed_border=0,$/;"	v
+allowed_border	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^            allowed_border=-1,$/;"	v
+anchor_generator	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^        anchor_generator=dict($/;"	v
+anchor_generator	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^        anchor_generator=dict($/;"	v
+args	main.py	/^    args = parser.parse_args()$/;"	v
+assigner	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^                assigner=dict($/;"	v
+assigner	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^            assigner=dict($/;"	v
+assigner	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^            assigner=dict($/;"	v
+auto_load_model	utils.py	/^def auto_load_model(args, model, model_without_ddp, optimizer, loss_scaler, model_ema=None):$/;"	f
+auxiliary_head	semantic_segmentation/configs/_base_/models/upernet_convnext.py	/^    auxiliary_head=dict($/;"	v
+auxiliary_head	semantic_segmentation/configs/convnext/upernet_convnext_base_512_160k_ade20k_ms.py	/^    auxiliary_head=dict($/;"	v
+auxiliary_head	semantic_segmentation/configs/convnext/upernet_convnext_base_512_160k_ade20k_ss.py	/^    auxiliary_head=dict($/;"	v
+auxiliary_head	semantic_segmentation/configs/convnext/upernet_convnext_base_640_160k_ade20k_ms.py	/^    auxiliary_head=dict($/;"	v
+auxiliary_head	semantic_segmentation/configs/convnext/upernet_convnext_base_640_160k_ade20k_ss.py	/^    auxiliary_head=dict($/;"	v
+auxiliary_head	semantic_segmentation/configs/convnext/upernet_convnext_large_640_160k_ade20k_ms.py	/^    auxiliary_head=dict($/;"	v
+auxiliary_head	semantic_segmentation/configs/convnext/upernet_convnext_large_640_160k_ade20k_ss.py	/^    auxiliary_head=dict($/;"	v
+auxiliary_head	semantic_segmentation/configs/convnext/upernet_convnext_small_512_160k_ade20k_ms.py	/^    auxiliary_head=dict($/;"	v
+auxiliary_head	semantic_segmentation/configs/convnext/upernet_convnext_small_512_160k_ade20k_ss.py	/^    auxiliary_head=dict($/;"	v
+auxiliary_head	semantic_segmentation/configs/convnext/upernet_convnext_tiny_512_160k_ade20k_ms.py	/^    auxiliary_head=dict($/;"	v
+auxiliary_head	semantic_segmentation/configs/convnext/upernet_convnext_tiny_512_160k_ade20k_ss.py	/^    auxiliary_head=dict($/;"	v
+auxiliary_head	semantic_segmentation/configs/convnext/upernet_convnext_xlarge_640_160k_ade20k_ms.py	/^    auxiliary_head=dict($/;"	v
+auxiliary_head	semantic_segmentation/configs/convnext/upernet_convnext_xlarge_640_160k_ade20k_ss.py	/^    auxiliary_head=dict($/;"	v
+avg	utils.py	/^    def avg(self):$/;"	m	class:SmoothedValue
+backbone	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^    backbone=dict($/;"	v
+backbone	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^    backbone=dict($/;"	v
+backbone	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^    backbone=dict($/;"	v
+backbone	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^    backbone=dict($/;"	v
+backbone	object_detection/configs/convnext/cascade_mask_rcnn_convnext_large_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^    backbone=dict($/;"	v
+backbone	object_detection/configs/convnext/cascade_mask_rcnn_convnext_small_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^    backbone=dict($/;"	v
+backbone	object_detection/configs/convnext/cascade_mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^    backbone=dict($/;"	v
+backbone	object_detection/configs/convnext/cascade_mask_rcnn_convnext_xlarge_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^    backbone=dict($/;"	v
+backbone	object_detection/configs/convnext/mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_adamw_3x_coco_in1k.py	/^    backbone=dict($/;"	v
+backbone	semantic_segmentation/configs/_base_/models/upernet_convnext.py	/^    backbone=dict($/;"	v
+backbone	semantic_segmentation/configs/convnext/upernet_convnext_base_512_160k_ade20k_ms.py	/^    backbone=dict($/;"	v
+backbone	semantic_segmentation/configs/convnext/upernet_convnext_base_512_160k_ade20k_ss.py	/^    backbone=dict($/;"	v
+backbone	semantic_segmentation/configs/convnext/upernet_convnext_base_640_160k_ade20k_ms.py	/^    backbone=dict($/;"	v
+backbone	semantic_segmentation/configs/convnext/upernet_convnext_base_640_160k_ade20k_ss.py	/^    backbone=dict($/;"	v
+backbone	semantic_segmentation/configs/convnext/upernet_convnext_large_640_160k_ade20k_ms.py	/^    backbone=dict($/;"	v
+backbone	semantic_segmentation/configs/convnext/upernet_convnext_large_640_160k_ade20k_ss.py	/^    backbone=dict($/;"	v
+backbone	semantic_segmentation/configs/convnext/upernet_convnext_small_512_160k_ade20k_ms.py	/^    backbone=dict($/;"	v
+backbone	semantic_segmentation/configs/convnext/upernet_convnext_small_512_160k_ade20k_ss.py	/^    backbone=dict($/;"	v
+backbone	semantic_segmentation/configs/convnext/upernet_convnext_tiny_512_160k_ade20k_ms.py	/^    backbone=dict($/;"	v
+backbone	semantic_segmentation/configs/convnext/upernet_convnext_tiny_512_160k_ade20k_ss.py	/^    backbone=dict($/;"	v
+backbone	semantic_segmentation/configs/convnext/upernet_convnext_xlarge_640_160k_ade20k_ms.py	/^    backbone=dict($/;"	v
+backbone	semantic_segmentation/configs/convnext/upernet_convnext_xlarge_640_160k_ade20k_ss.py	/^    backbone=dict($/;"	v
+bbox_coder	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^                bbox_coder=dict($/;"	v
+bbox_coder	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^        bbox_coder=dict($/;"	v
+bbox_coder	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^            bbox_coder=dict($/;"	v
+bbox_coder	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^        bbox_coder=dict($/;"	v
+bbox_coder	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                bbox_coder=dict($/;"	v
+bbox_coder	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                bbox_coder=dict($/;"	v
+bbox_coder	object_detection/configs/convnext/cascade_mask_rcnn_convnext_large_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                bbox_coder=dict($/;"	v
+bbox_coder	object_detection/configs/convnext/cascade_mask_rcnn_convnext_small_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                bbox_coder=dict($/;"	v
+bbox_coder	object_detection/configs/convnext/cascade_mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                bbox_coder=dict($/;"	v
+bbox_coder	object_detection/configs/convnext/cascade_mask_rcnn_convnext_xlarge_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                bbox_coder=dict($/;"	v
+bbox_head	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^        bbox_head=[$/;"	v
+bbox_head	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^        bbox_head=dict($/;"	v
+bbox_head	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^        bbox_head=[$/;"	v
+bbox_head	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^        bbox_head=[$/;"	v
+bbox_head	object_detection/configs/convnext/cascade_mask_rcnn_convnext_large_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^        bbox_head=[$/;"	v
+bbox_head	object_detection/configs/convnext/cascade_mask_rcnn_convnext_small_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^        bbox_head=[$/;"	v
+bbox_head	object_detection/configs/convnext/cascade_mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^        bbox_head=[$/;"	v
+bbox_head	object_detection/configs/convnext/cascade_mask_rcnn_convnext_xlarge_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^        bbox_head=[$/;"	v
+bbox_roi_extractor	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^        bbox_roi_extractor=dict($/;"	v
+bbox_roi_extractor	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^        bbox_roi_extractor=dict($/;"	v
+bucket_size_mb	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^    bucket_size_mb=-1,$/;"	v
+bucket_size_mb	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^    bucket_size_mb=-1,$/;"	v
+bucket_size_mb	object_detection/configs/convnext/cascade_mask_rcnn_convnext_large_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^    bucket_size_mb=-1,$/;"	v
+bucket_size_mb	object_detection/configs/convnext/cascade_mask_rcnn_convnext_small_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^    bucket_size_mb=-1,$/;"	v
+bucket_size_mb	object_detection/configs/convnext/cascade_mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^    bucket_size_mb=-1,$/;"	v
+bucket_size_mb	object_detection/configs/convnext/cascade_mask_rcnn_convnext_xlarge_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^    bucket_size_mb=-1,$/;"	v
+bucket_size_mb	object_detection/configs/convnext/mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_adamw_3x_coco_in1k.py	/^    bucket_size_mb=-1,$/;"	v
+bucket_size_mb	semantic_segmentation/configs/convnext/upernet_convnext_base_512_160k_ade20k_ms.py	/^    bucket_size_mb=-1,$/;"	v
+bucket_size_mb	semantic_segmentation/configs/convnext/upernet_convnext_base_512_160k_ade20k_ss.py	/^    bucket_size_mb=-1,$/;"	v
+bucket_size_mb	semantic_segmentation/configs/convnext/upernet_convnext_base_640_160k_ade20k_ms.py	/^    bucket_size_mb=-1,$/;"	v
+bucket_size_mb	semantic_segmentation/configs/convnext/upernet_convnext_base_640_160k_ade20k_ss.py	/^    bucket_size_mb=-1,$/;"	v
+bucket_size_mb	semantic_segmentation/configs/convnext/upernet_convnext_large_640_160k_ade20k_ms.py	/^    bucket_size_mb=-1,$/;"	v
+bucket_size_mb	semantic_segmentation/configs/convnext/upernet_convnext_large_640_160k_ade20k_ss.py	/^    bucket_size_mb=-1,$/;"	v
+bucket_size_mb	semantic_segmentation/configs/convnext/upernet_convnext_small_512_160k_ade20k_ms.py	/^    bucket_size_mb=-1,$/;"	v
+bucket_size_mb	semantic_segmentation/configs/convnext/upernet_convnext_small_512_160k_ade20k_ss.py	/^    bucket_size_mb=-1,$/;"	v
+bucket_size_mb	semantic_segmentation/configs/convnext/upernet_convnext_tiny_512_160k_ade20k_ms.py	/^    bucket_size_mb=-1,$/;"	v
+bucket_size_mb	semantic_segmentation/configs/convnext/upernet_convnext_tiny_512_160k_ade20k_ss.py	/^    bucket_size_mb=-1,$/;"	v
+bucket_size_mb	semantic_segmentation/configs/convnext/upernet_convnext_xlarge_640_160k_ade20k_ms.py	/^    bucket_size_mb=-1,$/;"	v
+bucket_size_mb	semantic_segmentation/configs/convnext/upernet_convnext_xlarge_640_160k_ade20k_ss.py	/^    bucket_size_mb=-1,$/;"	v
+build_dataset	datasets.py	/^def build_dataset(is_train, args):$/;"	f
+build_transform	datasets.py	/^def build_transform(is_train, args):$/;"	f
+channels	semantic_segmentation/configs/_base_/models/upernet_convnext.py	/^        channels=256,$/;"	v
+channels	semantic_segmentation/configs/_base_/models/upernet_convnext.py	/^        channels=512,$/;"	v
+checkpoint	run_with_submitit.py	/^    def checkpoint(self):$/;"	m	class:Trainer
+checkpoint_config	object_detection/configs/_base_/default_runtime.py	/^checkpoint_config = dict(interval=1)$/;"	v
+coalesce	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^    coalesce=True,$/;"	v
+coalesce	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^    coalesce=True,$/;"	v
+coalesce	object_detection/configs/convnext/cascade_mask_rcnn_convnext_large_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^    coalesce=True,$/;"	v
+coalesce	object_detection/configs/convnext/cascade_mask_rcnn_convnext_small_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^    coalesce=True,$/;"	v
+coalesce	object_detection/configs/convnext/cascade_mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^    coalesce=True,$/;"	v
+coalesce	object_detection/configs/convnext/cascade_mask_rcnn_convnext_xlarge_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^    coalesce=True,$/;"	v
+coalesce	object_detection/configs/convnext/mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_adamw_3x_coco_in1k.py	/^    coalesce=True,$/;"	v
+coalesce	semantic_segmentation/configs/convnext/upernet_convnext_base_512_160k_ade20k_ms.py	/^    coalesce=True,$/;"	v
+coalesce	semantic_segmentation/configs/convnext/upernet_convnext_base_512_160k_ade20k_ss.py	/^    coalesce=True,$/;"	v
+coalesce	semantic_segmentation/configs/convnext/upernet_convnext_base_640_160k_ade20k_ms.py	/^    coalesce=True,$/;"	v
+coalesce	semantic_segmentation/configs/convnext/upernet_convnext_base_640_160k_ade20k_ss.py	/^    coalesce=True,$/;"	v
+coalesce	semantic_segmentation/configs/convnext/upernet_convnext_large_640_160k_ade20k_ms.py	/^    coalesce=True,$/;"	v
+coalesce	semantic_segmentation/configs/convnext/upernet_convnext_large_640_160k_ade20k_ss.py	/^    coalesce=True,$/;"	v
+coalesce	semantic_segmentation/configs/convnext/upernet_convnext_small_512_160k_ade20k_ms.py	/^    coalesce=True,$/;"	v
+coalesce	semantic_segmentation/configs/convnext/upernet_convnext_small_512_160k_ade20k_ss.py	/^    coalesce=True,$/;"	v
+coalesce	semantic_segmentation/configs/convnext/upernet_convnext_tiny_512_160k_ade20k_ms.py	/^    coalesce=True,$/;"	v
+coalesce	semantic_segmentation/configs/convnext/upernet_convnext_tiny_512_160k_ade20k_ss.py	/^    coalesce=True,$/;"	v
+coalesce	semantic_segmentation/configs/convnext/upernet_convnext_xlarge_640_160k_ade20k_ms.py	/^    coalesce=True,$/;"	v
+coalesce	semantic_segmentation/configs/convnext/upernet_convnext_xlarge_640_160k_ade20k_ss.py	/^    coalesce=True,$/;"	v
+concat_input	semantic_segmentation/configs/_base_/models/upernet_convnext.py	/^        concat_input=False,$/;"	v
+conv_out_channels	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^            conv_out_channels=256,$/;"	v
+conv_out_channels	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^            conv_out_channels=256,$/;"	v
+conv_out_channels	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                conv_out_channels=256,$/;"	v
+conv_out_channels	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                conv_out_channels=256,$/;"	v
+conv_out_channels	object_detection/configs/convnext/cascade_mask_rcnn_convnext_large_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                conv_out_channels=256,$/;"	v
+conv_out_channels	object_detection/configs/convnext/cascade_mask_rcnn_convnext_small_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                conv_out_channels=256,$/;"	v
+conv_out_channels	object_detection/configs/convnext/cascade_mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                conv_out_channels=256,$/;"	v
+conv_out_channels	object_detection/configs/convnext/cascade_mask_rcnn_convnext_xlarge_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                conv_out_channels=256,$/;"	v
+convnext_base	models/convnext.py	/^def convnext_base(pretrained=False, in_22k=False, **kwargs):$/;"	f
+convnext_isotropic_base	models/convnext_isotropic.py	/^def convnext_isotropic_base(pretrained=False, **kwargs):$/;"	f
+convnext_isotropic_large	models/convnext_isotropic.py	/^def convnext_isotropic_large(pretrained=False, **kwargs):$/;"	f
+convnext_isotropic_small	models/convnext_isotropic.py	/^def convnext_isotropic_small(pretrained=False, **kwargs):$/;"	f
+convnext_large	models/convnext.py	/^def convnext_large(pretrained=False, in_22k=False, **kwargs):$/;"	f
+convnext_small	models/convnext.py	/^def convnext_small(pretrained=False,in_22k=False, **kwargs):$/;"	f
+convnext_tiny	models/convnext.py	/^def convnext_tiny(pretrained=False,in_22k=False, **kwargs):$/;"	f
+convnext_xlarge	models/convnext.py	/^def convnext_xlarge(pretrained=False, in_22k=False, **kwargs):$/;"	f
+cosine_scheduler	utils.py	/^def cosine_scheduler(base_value, final_value, epochs, niter_per_ep, warmup_epochs=0,$/;"	f
+create_optimizer	optim_factory.py	/^def create_optimizer(args, model, get_num_layer=None, get_layer_scale=None, filter_bias_and_bn=True, skip_list=None):$/;"	f
+crop_size	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                      crop_size=(384, 600),$/;"	v
+crop_size	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                      crop_size=(384, 600),$/;"	v
+crop_size	object_detection/configs/convnext/cascade_mask_rcnn_convnext_large_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                      crop_size=(384, 600),$/;"	v
+crop_size	object_detection/configs/convnext/cascade_mask_rcnn_convnext_small_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                      crop_size=(384, 600),$/;"	v
+crop_size	object_detection/configs/convnext/cascade_mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                      crop_size=(384, 600),$/;"	v
+crop_size	object_detection/configs/convnext/cascade_mask_rcnn_convnext_xlarge_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                      crop_size=(384, 600),$/;"	v
+crop_size	object_detection/configs/convnext/mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_adamw_3x_coco_in1k.py	/^                      crop_size=(384, 600),$/;"	v
+crop_size	semantic_segmentation/configs/convnext/upernet_convnext_base_512_160k_ade20k_ms.py	/^crop_size = (512, 512)$/;"	v
+crop_size	semantic_segmentation/configs/convnext/upernet_convnext_base_512_160k_ade20k_ss.py	/^crop_size = (512, 512)$/;"	v
+crop_size	semantic_segmentation/configs/convnext/upernet_convnext_base_640_160k_ade20k_ms.py	/^crop_size = (640, 640)$/;"	v
+crop_size	semantic_segmentation/configs/convnext/upernet_convnext_base_640_160k_ade20k_ss.py	/^crop_size = (640, 640)$/;"	v
+crop_size	semantic_segmentation/configs/convnext/upernet_convnext_large_640_160k_ade20k_ms.py	/^crop_size = (640, 640)$/;"	v
+crop_size	semantic_segmentation/configs/convnext/upernet_convnext_large_640_160k_ade20k_ss.py	/^crop_size = (640, 640)$/;"	v
+crop_size	semantic_segmentation/configs/convnext/upernet_convnext_small_512_160k_ade20k_ms.py	/^crop_size = (512, 512)$/;"	v
+crop_size	semantic_segmentation/configs/convnext/upernet_convnext_small_512_160k_ade20k_ss.py	/^crop_size = (512, 512)$/;"	v
+crop_size	semantic_segmentation/configs/convnext/upernet_convnext_tiny_512_160k_ade20k_ms.py	/^crop_size = (512, 512)$/;"	v
+crop_size	semantic_segmentation/configs/convnext/upernet_convnext_tiny_512_160k_ade20k_ss.py	/^crop_size = (512, 512)$/;"	v
+crop_size	semantic_segmentation/configs/convnext/upernet_convnext_xlarge_640_160k_ade20k_ms.py	/^crop_size = (640, 640)$/;"	v
+crop_size	semantic_segmentation/configs/convnext/upernet_convnext_xlarge_640_160k_ade20k_ss.py	/^crop_size = (640, 640)$/;"	v
+crop_type	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                      crop_type='absolute_range',$/;"	v
+crop_type	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                      crop_type='absolute_range',$/;"	v
+crop_type	object_detection/configs/convnext/cascade_mask_rcnn_convnext_large_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                      crop_type='absolute_range',$/;"	v
+crop_type	object_detection/configs/convnext/cascade_mask_rcnn_convnext_small_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                      crop_type='absolute_range',$/;"	v
+crop_type	object_detection/configs/convnext/cascade_mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                      crop_type='absolute_range',$/;"	v
+crop_type	object_detection/configs/convnext/cascade_mask_rcnn_convnext_xlarge_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                      crop_type='absolute_range',$/;"	v
+crop_type	object_detection/configs/convnext/mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_adamw_3x_coco_in1k.py	/^                      crop_type='absolute_range',$/;"	v
+cudnn_benchmark	semantic_segmentation/configs/_base_/default_runtime.py	/^cudnn_benchmark = True$/;"	v
+custom_hooks	object_detection/configs/_base_/default_runtime.py	/^custom_hooks = [dict(type='NumClassCheckHook')]$/;"	v
+data	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^data = dict(train=dict(pipeline=train_pipeline))$/;"	v
+data	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^data = dict(train=dict(pipeline=train_pipeline))$/;"	v
+data	object_detection/configs/convnext/cascade_mask_rcnn_convnext_large_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^data = dict(train=dict(pipeline=train_pipeline))$/;"	v
+data	object_detection/configs/convnext/cascade_mask_rcnn_convnext_small_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^data = dict(train=dict(pipeline=train_pipeline))$/;"	v
+data	object_detection/configs/convnext/cascade_mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^data = dict(train=dict(pipeline=train_pipeline))$/;"	v
+data	object_detection/configs/convnext/cascade_mask_rcnn_convnext_xlarge_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^data = dict(train=dict(pipeline=train_pipeline), samples_per_gpu=2)$/;"	v
+data	object_detection/configs/convnext/mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_adamw_3x_coco_in1k.py	/^data = dict(train=dict(pipeline=train_pipeline))$/;"	v
+data	semantic_segmentation/configs/convnext/upernet_convnext_base_512_160k_ade20k_ms.py	/^data=dict(samples_per_gpu=2)$/;"	v
+data	semantic_segmentation/configs/convnext/upernet_convnext_base_512_160k_ade20k_ss.py	/^data=dict(samples_per_gpu=2)$/;"	v
+data	semantic_segmentation/configs/convnext/upernet_convnext_base_640_160k_ade20k_ms.py	/^data=dict(samples_per_gpu=2)$/;"	v
+data	semantic_segmentation/configs/convnext/upernet_convnext_base_640_160k_ade20k_ss.py	/^data=dict(samples_per_gpu=2)$/;"	v
+data	semantic_segmentation/configs/convnext/upernet_convnext_large_640_160k_ade20k_ms.py	/^data=dict(samples_per_gpu=2)$/;"	v
+data	semantic_segmentation/configs/convnext/upernet_convnext_large_640_160k_ade20k_ss.py	/^data=dict(samples_per_gpu=2)$/;"	v
+data	semantic_segmentation/configs/convnext/upernet_convnext_small_512_160k_ade20k_ms.py	/^data=dict(samples_per_gpu=2)$/;"	v
+data	semantic_segmentation/configs/convnext/upernet_convnext_small_512_160k_ade20k_ss.py	/^data=dict(samples_per_gpu=2)$/;"	v
+data	semantic_segmentation/configs/convnext/upernet_convnext_tiny_512_160k_ade20k_ms.py	/^data=dict(samples_per_gpu=2)$/;"	v
+data	semantic_segmentation/configs/convnext/upernet_convnext_tiny_512_160k_ade20k_ss.py	/^data=dict(samples_per_gpu=2)$/;"	v
+data	semantic_segmentation/configs/convnext/upernet_convnext_xlarge_640_160k_ade20k_ms.py	/^data=dict(samples_per_gpu=2)$/;"	v
+data	semantic_segmentation/configs/convnext/upernet_convnext_xlarge_640_160k_ade20k_ss.py	/^data=dict(samples_per_gpu=2)$/;"	v
+debug	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^                debug=False)$/;"	v
+debug	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^                debug=False),$/;"	v
+debug	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^            debug=False),$/;"	v
+debug	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^            debug=False)),$/;"	v
+debug	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^            debug=False),$/;"	v
+decode_head	semantic_segmentation/configs/_base_/models/upernet_convnext.py	/^    decode_head=dict($/;"	v
+decode_head	semantic_segmentation/configs/convnext/upernet_convnext_base_512_160k_ade20k_ms.py	/^    decode_head=dict($/;"	v
+decode_head	semantic_segmentation/configs/convnext/upernet_convnext_base_512_160k_ade20k_ss.py	/^    decode_head=dict($/;"	v
+decode_head	semantic_segmentation/configs/convnext/upernet_convnext_base_640_160k_ade20k_ms.py	/^    decode_head=dict($/;"	v
+decode_head	semantic_segmentation/configs/convnext/upernet_convnext_base_640_160k_ade20k_ss.py	/^    decode_head=dict($/;"	v
+decode_head	semantic_segmentation/configs/convnext/upernet_convnext_large_640_160k_ade20k_ms.py	/^    decode_head=dict($/;"	v
+decode_head	semantic_segmentation/configs/convnext/upernet_convnext_large_640_160k_ade20k_ss.py	/^    decode_head=dict($/;"	v
+decode_head	semantic_segmentation/configs/convnext/upernet_convnext_small_512_160k_ade20k_ms.py	/^    decode_head=dict($/;"	v
+decode_head	semantic_segmentation/configs/convnext/upernet_convnext_small_512_160k_ade20k_ss.py	/^    decode_head=dict($/;"	v
+decode_head	semantic_segmentation/configs/convnext/upernet_convnext_tiny_512_160k_ade20k_ms.py	/^    decode_head=dict($/;"	v
+decode_head	semantic_segmentation/configs/convnext/upernet_convnext_tiny_512_160k_ade20k_ss.py	/^    decode_head=dict($/;"	v
+decode_head	semantic_segmentation/configs/convnext/upernet_convnext_xlarge_640_160k_ade20k_ms.py	/^    decode_head=dict($/;"	v
+decode_head	semantic_segmentation/configs/convnext/upernet_convnext_xlarge_640_160k_ade20k_ss.py	/^    decode_head=dict($/;"	v
+depths	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^        depths=[3, 3, 9, 3], $/;"	v
+depths	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^        depths=[3, 3, 9, 3], $/;"	v
+depths	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^        depths=[3, 3, 27, 3], $/;"	v
+depths	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^        depths=[3, 3, 27, 3], $/;"	v
+depths	object_detection/configs/convnext/cascade_mask_rcnn_convnext_large_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^        depths=[3, 3, 27, 3], $/;"	v
+depths	object_detection/configs/convnext/cascade_mask_rcnn_convnext_small_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^        depths=[3, 3, 27, 3], $/;"	v
+depths	object_detection/configs/convnext/cascade_mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^        depths=[3, 3, 9, 3], $/;"	v
+depths	object_detection/configs/convnext/cascade_mask_rcnn_convnext_xlarge_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^        depths=[3, 3, 27, 3], $/;"	v
+depths	object_detection/configs/convnext/mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_adamw_3x_coco_in1k.py	/^        depths=[3, 3, 9, 3], $/;"	v
+depths	semantic_segmentation/configs/_base_/models/upernet_convnext.py	/^        depths=[3, 3, 9, 3], $/;"	v
+depths	semantic_segmentation/configs/convnext/upernet_convnext_base_512_160k_ade20k_ms.py	/^        depths=[3, 3, 27, 3], $/;"	v
+depths	semantic_segmentation/configs/convnext/upernet_convnext_base_512_160k_ade20k_ss.py	/^        depths=[3, 3, 27, 3], $/;"	v
+depths	semantic_segmentation/configs/convnext/upernet_convnext_base_640_160k_ade20k_ms.py	/^        depths=[3, 3, 27, 3], $/;"	v
+depths	semantic_segmentation/configs/convnext/upernet_convnext_base_640_160k_ade20k_ss.py	/^        depths=[3, 3, 27, 3], $/;"	v
+depths	semantic_segmentation/configs/convnext/upernet_convnext_large_640_160k_ade20k_ms.py	/^        depths=[3, 3, 27, 3], $/;"	v
+depths	semantic_segmentation/configs/convnext/upernet_convnext_large_640_160k_ade20k_ss.py	/^        depths=[3, 3, 27, 3], $/;"	v
+depths	semantic_segmentation/configs/convnext/upernet_convnext_small_512_160k_ade20k_ms.py	/^        depths=[3, 3, 27, 3], $/;"	v
+depths	semantic_segmentation/configs/convnext/upernet_convnext_small_512_160k_ade20k_ss.py	/^        depths=[3, 3, 27, 3], $/;"	v
+depths	semantic_segmentation/configs/convnext/upernet_convnext_tiny_512_160k_ade20k_ms.py	/^        depths=[3, 3, 9, 3], $/;"	v
+depths	semantic_segmentation/configs/convnext/upernet_convnext_tiny_512_160k_ade20k_ss.py	/^        depths=[3, 3, 9, 3], $/;"	v
+depths	semantic_segmentation/configs/convnext/upernet_convnext_xlarge_640_160k_ade20k_ms.py	/^        depths=[3, 3, 27, 3], $/;"	v
+depths	semantic_segmentation/configs/convnext/upernet_convnext_xlarge_640_160k_ade20k_ss.py	/^        depths=[3, 3, 27, 3], $/;"	v
+dims	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^        dims=[96, 192, 384, 768], $/;"	v
+dims	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^        dims=[96, 192, 384, 768], $/;"	v
+dims	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^        dims=[128, 256, 512, 1024], $/;"	v
+dims	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^        dims=[128, 256, 512, 1024], $/;"	v
+dims	object_detection/configs/convnext/cascade_mask_rcnn_convnext_large_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^        dims=[192, 384, 768, 1536], $/;"	v
+dims	object_detection/configs/convnext/cascade_mask_rcnn_convnext_small_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^        dims=[96, 192, 384, 768], $/;"	v
+dims	object_detection/configs/convnext/cascade_mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^        dims=[96, 192, 384, 768], $/;"	v
+dims	object_detection/configs/convnext/cascade_mask_rcnn_convnext_xlarge_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^        dims=[256, 512, 1024, 2048], $/;"	v
+dims	object_detection/configs/convnext/mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_adamw_3x_coco_in1k.py	/^        dims=[96, 192, 384, 768], $/;"	v
+dims	semantic_segmentation/configs/_base_/models/upernet_convnext.py	/^        dims=[96, 192, 384, 768], $/;"	v
+dims	semantic_segmentation/configs/convnext/upernet_convnext_base_512_160k_ade20k_ms.py	/^        dims=[128, 256, 512, 1024], $/;"	v
+dims	semantic_segmentation/configs/convnext/upernet_convnext_base_512_160k_ade20k_ss.py	/^        dims=[128, 256, 512, 1024], $/;"	v
+dims	semantic_segmentation/configs/convnext/upernet_convnext_base_640_160k_ade20k_ms.py	/^        dims=[128, 256, 512, 1024], $/;"	v
+dims	semantic_segmentation/configs/convnext/upernet_convnext_base_640_160k_ade20k_ss.py	/^        dims=[128, 256, 512, 1024], $/;"	v
+dims	semantic_segmentation/configs/convnext/upernet_convnext_large_640_160k_ade20k_ms.py	/^        dims=[192, 384, 768, 1536], $/;"	v
+dims	semantic_segmentation/configs/convnext/upernet_convnext_large_640_160k_ade20k_ss.py	/^        dims=[192, 384, 768, 1536], $/;"	v
+dims	semantic_segmentation/configs/convnext/upernet_convnext_small_512_160k_ade20k_ms.py	/^        dims=[96, 192, 384, 768], $/;"	v
+dims	semantic_segmentation/configs/convnext/upernet_convnext_small_512_160k_ade20k_ss.py	/^        dims=[96, 192, 384, 768], $/;"	v
+dims	semantic_segmentation/configs/convnext/upernet_convnext_tiny_512_160k_ade20k_ms.py	/^        dims=[96, 192, 384, 768], $/;"	v
+dims	semantic_segmentation/configs/convnext/upernet_convnext_tiny_512_160k_ade20k_ss.py	/^        dims=[96, 192, 384, 768], $/;"	v
+dims	semantic_segmentation/configs/convnext/upernet_convnext_xlarge_640_160k_ade20k_ms.py	/^        dims=[256, 512, 1024, 2048], $/;"	v
+dims	semantic_segmentation/configs/convnext/upernet_convnext_xlarge_640_160k_ade20k_ss.py	/^        dims=[256, 512, 1024, 2048], $/;"	v
+dist_params	object_detection/configs/_base_/default_runtime.py	/^dist_params = dict(backend='nccl')$/;"	v
+dist_params	semantic_segmentation/configs/_base_/default_runtime.py	/^dist_params = dict(backend='nccl')$/;"	v
+drop_path_rate	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^        drop_path_rate=0.2,$/;"	v
+drop_path_rate	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^        drop_path_rate=0.2,$/;"	v
+drop_path_rate	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^        drop_path_rate=0.7,$/;"	v
+drop_path_rate	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^        drop_path_rate=0.6,$/;"	v
+drop_path_rate	object_detection/configs/convnext/cascade_mask_rcnn_convnext_large_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^        drop_path_rate=0.7,$/;"	v
+drop_path_rate	object_detection/configs/convnext/cascade_mask_rcnn_convnext_small_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^        drop_path_rate=0.6,$/;"	v
+drop_path_rate	object_detection/configs/convnext/cascade_mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^        drop_path_rate=0.4,$/;"	v
+drop_path_rate	object_detection/configs/convnext/cascade_mask_rcnn_convnext_xlarge_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^        drop_path_rate=0.8,$/;"	v
+drop_path_rate	object_detection/configs/convnext/mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_adamw_3x_coco_in1k.py	/^        drop_path_rate=0.4,$/;"	v
+drop_path_rate	semantic_segmentation/configs/_base_/models/upernet_convnext.py	/^        drop_path_rate=0.2,$/;"	v
+drop_path_rate	semantic_segmentation/configs/convnext/upernet_convnext_base_512_160k_ade20k_ms.py	/^        drop_path_rate=0.4,$/;"	v
+drop_path_rate	semantic_segmentation/configs/convnext/upernet_convnext_base_512_160k_ade20k_ss.py	/^        drop_path_rate=0.4,$/;"	v
+drop_path_rate	semantic_segmentation/configs/convnext/upernet_convnext_base_640_160k_ade20k_ms.py	/^        drop_path_rate=0.4,$/;"	v
+drop_path_rate	semantic_segmentation/configs/convnext/upernet_convnext_base_640_160k_ade20k_ss.py	/^        drop_path_rate=0.4,$/;"	v
+drop_path_rate	semantic_segmentation/configs/convnext/upernet_convnext_large_640_160k_ade20k_ms.py	/^        drop_path_rate=0.4,$/;"	v
+drop_path_rate	semantic_segmentation/configs/convnext/upernet_convnext_large_640_160k_ade20k_ss.py	/^        drop_path_rate=0.4,$/;"	v
+drop_path_rate	semantic_segmentation/configs/convnext/upernet_convnext_small_512_160k_ade20k_ms.py	/^        drop_path_rate=0.3,$/;"	v
+drop_path_rate	semantic_segmentation/configs/convnext/upernet_convnext_small_512_160k_ade20k_ss.py	/^        drop_path_rate=0.3,$/;"	v
+drop_path_rate	semantic_segmentation/configs/convnext/upernet_convnext_tiny_512_160k_ade20k_ms.py	/^        drop_path_rate=0.4,$/;"	v
+drop_path_rate	semantic_segmentation/configs/convnext/upernet_convnext_tiny_512_160k_ade20k_ss.py	/^        drop_path_rate=0.4,$/;"	v
+drop_path_rate	semantic_segmentation/configs/convnext/upernet_convnext_xlarge_640_160k_ade20k_ms.py	/^        drop_path_rate=0.4,$/;"	v
+drop_path_rate	semantic_segmentation/configs/convnext/upernet_convnext_xlarge_640_160k_ade20k_ss.py	/^        drop_path_rate=0.4,$/;"	v
+dropout_ratio	semantic_segmentation/configs/_base_/models/upernet_convnext.py	/^        dropout_ratio=0.1,$/;"	v
+evaluate	engine.py	/^def evaluate(data_loader, model, device, use_amp=False):$/;"	f
+fc_out_channels	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^                fc_out_channels=1024,$/;"	v
+fc_out_channels	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^            fc_out_channels=1024,$/;"	v
+fc_out_channels	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                fc_out_channels=1024,$/;"	v
+fc_out_channels	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                fc_out_channels=1024,$/;"	v
+fc_out_channels	object_detection/configs/convnext/cascade_mask_rcnn_convnext_large_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                fc_out_channels=1024,$/;"	v
+fc_out_channels	object_detection/configs/convnext/cascade_mask_rcnn_convnext_small_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                fc_out_channels=1024,$/;"	v
+fc_out_channels	object_detection/configs/convnext/cascade_mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                fc_out_channels=1024,$/;"	v
+fc_out_channels	object_detection/configs/convnext/cascade_mask_rcnn_convnext_xlarge_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                fc_out_channels=1024,$/;"	v
+feat_channels	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^        feat_channels=256,$/;"	v
+feat_channels	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^        feat_channels=256,$/;"	v
+featmap_strides	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^            featmap_strides=[4, 8, 16, 32]),$/;"	v
+featmap_strides	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^            featmap_strides=[4, 8, 16, 32]),$/;"	v
+flush	utils.py	/^    def flush(self):$/;"	m	class:TensorboardLogger
+forward	models/convnext.py	/^    def forward(self, x):$/;"	m	class:Block
+forward	models/convnext.py	/^    def forward(self, x):$/;"	m	class:ConvNeXt
+forward	models/convnext.py	/^    def forward(self, x):$/;"	m	class:LayerNorm
+forward	models/convnext_isotropic.py	/^    def forward(self, x):$/;"	m	class:ConvNeXtIsotropic
+forward	object_detection/mmdet/models/backbones/convnext.py	/^    def forward(self, x):$/;"	m	class:Block
+forward	object_detection/mmdet/models/backbones/convnext.py	/^    def forward(self, x):$/;"	m	class:ConvNeXt
+forward	object_detection/mmdet/models/backbones/convnext.py	/^    def forward(self, x):$/;"	m	class:LayerNorm
+forward	semantic_segmentation/backbone/convnext.py	/^    def forward(self, x):$/;"	m	class:Block
+forward	semantic_segmentation/backbone/convnext.py	/^    def forward(self, x):$/;"	m	class:ConvNeXt
+forward	semantic_segmentation/backbone/convnext.py	/^    def forward(self, x):$/;"	m	class:LayerNorm
+forward_features	models/convnext.py	/^    def forward_features(self, x):$/;"	m	class:ConvNeXt
+forward_features	models/convnext_isotropic.py	/^    def forward_features(self, x):$/;"	m	class:ConvNeXtIsotropic
+forward_features	object_detection/mmdet/models/backbones/convnext.py	/^    def forward_features(self, x):$/;"	m	class:ConvNeXt
+forward_features	semantic_segmentation/backbone/convnext.py	/^    def forward_features(self, x):$/;"	m	class:ConvNeXt
+fp16	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^fp16 = None$/;"	v
+fp16	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^fp16 = None$/;"	v
+fp16	object_detection/configs/convnext/cascade_mask_rcnn_convnext_large_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^fp16 = None$/;"	v
+fp16	object_detection/configs/convnext/cascade_mask_rcnn_convnext_small_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^fp16 = None$/;"	v
+fp16	object_detection/configs/convnext/cascade_mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^fp16 = None$/;"	v
+fp16	object_detection/configs/convnext/cascade_mask_rcnn_convnext_xlarge_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^fp16 = None$/;"	v
+fp16	object_detection/configs/convnext/mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_adamw_3x_coco_in1k.py	/^fp16 = None$/;"	v
+fp16	semantic_segmentation/configs/convnext/upernet_convnext_base_512_160k_ade20k_ms.py	/^fp16 = None$/;"	v
+fp16	semantic_segmentation/configs/convnext/upernet_convnext_base_512_160k_ade20k_ss.py	/^fp16 = None$/;"	v
+fp16	semantic_segmentation/configs/convnext/upernet_convnext_base_640_160k_ade20k_ms.py	/^fp16 = None$/;"	v
+fp16	semantic_segmentation/configs/convnext/upernet_convnext_base_640_160k_ade20k_ss.py	/^fp16 = None$/;"	v
+fp16	semantic_segmentation/configs/convnext/upernet_convnext_large_640_160k_ade20k_ms.py	/^fp16 = None$/;"	v
+fp16	semantic_segmentation/configs/convnext/upernet_convnext_large_640_160k_ade20k_ss.py	/^fp16 = None$/;"	v
+fp16	semantic_segmentation/configs/convnext/upernet_convnext_small_512_160k_ade20k_ms.py	/^fp16 = None$/;"	v
+fp16	semantic_segmentation/configs/convnext/upernet_convnext_small_512_160k_ade20k_ss.py	/^fp16 = None$/;"	v
+fp16	semantic_segmentation/configs/convnext/upernet_convnext_tiny_512_160k_ade20k_ms.py	/^fp16 = None$/;"	v
+fp16	semantic_segmentation/configs/convnext/upernet_convnext_tiny_512_160k_ade20k_ss.py	/^fp16 = None$/;"	v
+fp16	semantic_segmentation/configs/convnext/upernet_convnext_xlarge_640_160k_ade20k_ms.py	/^fp16 = None$/;"	v
+fp16	semantic_segmentation/configs/convnext/upernet_convnext_xlarge_640_160k_ade20k_ss.py	/^fp16 = None$/;"	v
+get_args_parser	main.py	/^def get_args_parser():$/;"	f
+get_grad_norm_	utils.py	/^def get_grad_norm_(parameters, norm_type: float = 2.0) -> torch.Tensor:$/;"	f
+get_init_file	run_with_submitit.py	/^def get_init_file():$/;"	f
+get_layer_id	optim_factory.py	/^    def get_layer_id(self, var_name):$/;"	m	class:LayerDecayValueAssigner
+get_num_layer_for_convnext	optim_factory.py	/^def get_num_layer_for_convnext(var_name):$/;"	f
+get_num_layer_layer_wise	object_detection/mmcv_custom/layer_decay_optimizer_constructor.py	/^def get_num_layer_layer_wise(var_name, num_max_layer=12):$/;"	f
+get_num_layer_layer_wise	semantic_segmentation/mmcv_custom/layer_decay_optimizer_constructor.py	/^def get_num_layer_layer_wise(var_name, num_max_layer=12):$/;"	f
+get_num_layer_stage_wise	object_detection/mmcv_custom/layer_decay_optimizer_constructor.py	/^def get_num_layer_stage_wise(var_name, num_max_layer):$/;"	f
+get_num_layer_stage_wise	semantic_segmentation/mmcv_custom/layer_decay_optimizer_constructor.py	/^def get_num_layer_stage_wise(var_name, num_max_layer):$/;"	f
+get_parameter_groups	optim_factory.py	/^def get_parameter_groups(model, weight_decay=1e-5, skip_list=(), get_num_layer=None, get_layer_scale=None):$/;"	f
+get_rank	utils.py	/^def get_rank():$/;"	f
+get_scale	optim_factory.py	/^    def get_scale(self, layer_id):$/;"	m	class:LayerDecayValueAssigner
+get_shared_folder	run_with_submitit.py	/^def get_shared_folder() -> Path:$/;"	f
+get_world_size	utils.py	/^def get_world_size():$/;"	f
+global_avg	utils.py	/^    def global_avg(self):$/;"	m	class:SmoothedValue
+grad_clip	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^    grad_clip=None,$/;"	v
+grad_clip	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^    grad_clip=None,$/;"	v
+grad_clip	object_detection/configs/convnext/cascade_mask_rcnn_convnext_large_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^    grad_clip=None,$/;"	v
+grad_clip	object_detection/configs/convnext/cascade_mask_rcnn_convnext_small_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^    grad_clip=None,$/;"	v
+grad_clip	object_detection/configs/convnext/cascade_mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^    grad_clip=None,$/;"	v
+grad_clip	object_detection/configs/convnext/cascade_mask_rcnn_convnext_xlarge_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^    grad_clip=None,$/;"	v
+grad_clip	object_detection/configs/convnext/mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_adamw_3x_coco_in1k.py	/^    grad_clip=None,$/;"	v
+grad_clip	semantic_segmentation/configs/convnext/upernet_convnext_base_512_160k_ade20k_ms.py	/^    grad_clip=None,$/;"	v
+grad_clip	semantic_segmentation/configs/convnext/upernet_convnext_base_512_160k_ade20k_ss.py	/^    grad_clip=None,$/;"	v
+grad_clip	semantic_segmentation/configs/convnext/upernet_convnext_base_640_160k_ade20k_ms.py	/^    grad_clip=None,$/;"	v
+grad_clip	semantic_segmentation/configs/convnext/upernet_convnext_base_640_160k_ade20k_ss.py	/^    grad_clip=None,$/;"	v
+grad_clip	semantic_segmentation/configs/convnext/upernet_convnext_large_640_160k_ade20k_ms.py	/^    grad_clip=None,$/;"	v
+grad_clip	semantic_segmentation/configs/convnext/upernet_convnext_large_640_160k_ade20k_ss.py	/^    grad_clip=None,$/;"	v
+grad_clip	semantic_segmentation/configs/convnext/upernet_convnext_small_512_160k_ade20k_ms.py	/^    grad_clip=None,$/;"	v
+grad_clip	semantic_segmentation/configs/convnext/upernet_convnext_small_512_160k_ade20k_ss.py	/^    grad_clip=None,$/;"	v
+grad_clip	semantic_segmentation/configs/convnext/upernet_convnext_tiny_512_160k_ade20k_ms.py	/^    grad_clip=None,$/;"	v
+grad_clip	semantic_segmentation/configs/convnext/upernet_convnext_tiny_512_160k_ade20k_ss.py	/^    grad_clip=None,$/;"	v
+grad_clip	semantic_segmentation/configs/convnext/upernet_convnext_xlarge_640_160k_ade20k_ms.py	/^    grad_clip=None,$/;"	v
+grad_clip	semantic_segmentation/configs/convnext/upernet_convnext_xlarge_640_160k_ade20k_ss.py	/^    grad_clip=None,$/;"	v
+has_apex	optim_factory.py	/^    has_apex = False$/;"	v
+has_apex	optim_factory.py	/^    has_apex = True$/;"	v
+hooks	object_detection/configs/_base_/default_runtime.py	/^    hooks=[$/;"	v
+hooks	semantic_segmentation/configs/_base_/default_runtime.py	/^    hooks=[$/;"	v
+ignore_iof_thr	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^                    ignore_iof_thr=-1),$/;"	v
+ignore_iof_thr	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^                ignore_iof_thr=-1),$/;"	v
+ignore_iof_thr	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^                ignore_iof_thr=-1),$/;"	v
+img_norm_cfg	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^img_norm_cfg = dict($/;"	v
+img_norm_cfg	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^img_norm_cfg = dict($/;"	v
+img_norm_cfg	object_detection/configs/convnext/cascade_mask_rcnn_convnext_large_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^img_norm_cfg = dict($/;"	v
+img_norm_cfg	object_detection/configs/convnext/cascade_mask_rcnn_convnext_small_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^img_norm_cfg = dict($/;"	v
+img_norm_cfg	object_detection/configs/convnext/cascade_mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^img_norm_cfg = dict($/;"	v
+img_norm_cfg	object_detection/configs/convnext/cascade_mask_rcnn_convnext_xlarge_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^img_norm_cfg = dict($/;"	v
+img_norm_cfg	object_detection/configs/convnext/mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_adamw_3x_coco_in1k.py	/^img_norm_cfg = dict($/;"	v
+img_scale	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                      img_scale=[(400, 1333), (500, 1333), (600, 1333)],$/;"	v
+img_scale	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                      img_scale=[(480, 1333), (512, 1333), (544, 1333), (576, 1333),$/;"	v
+img_scale	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                      img_scale=[(480, 1333), (512, 1333), (544, 1333),$/;"	v
+img_scale	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                      img_scale=[(400, 1333), (500, 1333), (600, 1333)],$/;"	v
+img_scale	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                      img_scale=[(480, 1333), (512, 1333), (544, 1333), (576, 1333),$/;"	v
+img_scale	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                      img_scale=[(480, 1333), (512, 1333), (544, 1333),$/;"	v
+img_scale	object_detection/configs/convnext/cascade_mask_rcnn_convnext_large_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                      img_scale=[(400, 1333), (500, 1333), (600, 1333)],$/;"	v
+img_scale	object_detection/configs/convnext/cascade_mask_rcnn_convnext_large_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                      img_scale=[(480, 1333), (512, 1333), (544, 1333), (576, 1333),$/;"	v
+img_scale	object_detection/configs/convnext/cascade_mask_rcnn_convnext_large_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                      img_scale=[(480, 1333), (512, 1333), (544, 1333),$/;"	v
+img_scale	object_detection/configs/convnext/cascade_mask_rcnn_convnext_small_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                      img_scale=[(400, 1333), (500, 1333), (600, 1333)],$/;"	v
+img_scale	object_detection/configs/convnext/cascade_mask_rcnn_convnext_small_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                      img_scale=[(480, 1333), (512, 1333), (544, 1333), (576, 1333),$/;"	v
+img_scale	object_detection/configs/convnext/cascade_mask_rcnn_convnext_small_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                      img_scale=[(480, 1333), (512, 1333), (544, 1333),$/;"	v
+img_scale	object_detection/configs/convnext/cascade_mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                      img_scale=[(400, 1333), (500, 1333), (600, 1333)],$/;"	v
+img_scale	object_detection/configs/convnext/cascade_mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                      img_scale=[(480, 1333), (512, 1333), (544, 1333), (576, 1333),$/;"	v
+img_scale	object_detection/configs/convnext/cascade_mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                      img_scale=[(480, 1333), (512, 1333), (544, 1333),$/;"	v
+img_scale	object_detection/configs/convnext/cascade_mask_rcnn_convnext_xlarge_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                      img_scale=[(400, 1333), (500, 1333), (600, 1333)],$/;"	v
+img_scale	object_detection/configs/convnext/cascade_mask_rcnn_convnext_xlarge_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                      img_scale=[(480, 1333), (512, 1333), (544, 1333), (576, 1333),$/;"	v
+img_scale	object_detection/configs/convnext/cascade_mask_rcnn_convnext_xlarge_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                      img_scale=[(480, 1333), (512, 1333), (544, 1333),$/;"	v
+img_scale	object_detection/configs/convnext/mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_adamw_3x_coco_in1k.py	/^                      img_scale=[(400, 1333), (500, 1333), (600, 1333)],$/;"	v
+img_scale	object_detection/configs/convnext/mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_adamw_3x_coco_in1k.py	/^                      img_scale=[(480, 1333), (512, 1333), (544, 1333), (576, 1333),$/;"	v
+img_scale	object_detection/configs/convnext/mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_adamw_3x_coco_in1k.py	/^                      img_scale=[(480, 1333), (512, 1333), (544, 1333),$/;"	v
+in_channels	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^                in_channels=256,$/;"	v
+in_channels	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^            in_channels=256,$/;"	v
+in_channels	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^        in_channels=256,$/;"	v
+in_channels	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^        in_channels=[128, 256, 512, 1024],$/;"	v
+in_channels	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^            in_channels=256,$/;"	v
+in_channels	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^        in_channels=256,$/;"	v
+in_channels	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^        in_channels=[128, 256, 512, 1024],$/;"	v
+in_channels	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                in_channels=256,$/;"	v
+in_channels	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                in_channels=256,$/;"	v
+in_channels	object_detection/configs/convnext/cascade_mask_rcnn_convnext_large_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                in_channels=256,$/;"	v
+in_channels	object_detection/configs/convnext/cascade_mask_rcnn_convnext_small_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                in_channels=256,$/;"	v
+in_channels	object_detection/configs/convnext/cascade_mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                in_channels=256,$/;"	v
+in_channels	object_detection/configs/convnext/cascade_mask_rcnn_convnext_xlarge_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                in_channels=256,$/;"	v
+in_channels	semantic_segmentation/configs/_base_/models/upernet_convnext.py	/^        in_channels=384,$/;"	v
+in_channels	semantic_segmentation/configs/_base_/models/upernet_convnext.py	/^        in_channels=[128, 256, 512, 1024],$/;"	v
+in_channels	semantic_segmentation/configs/convnext/upernet_convnext_base_512_160k_ade20k_ms.py	/^        in_channels=512,$/;"	v
+in_channels	semantic_segmentation/configs/convnext/upernet_convnext_base_512_160k_ade20k_ms.py	/^        in_channels=[128, 256, 512, 1024],$/;"	v
+in_channels	semantic_segmentation/configs/convnext/upernet_convnext_base_512_160k_ade20k_ss.py	/^        in_channels=512,$/;"	v
+in_channels	semantic_segmentation/configs/convnext/upernet_convnext_base_512_160k_ade20k_ss.py	/^        in_channels=[128, 256, 512, 1024],$/;"	v
+in_channels	semantic_segmentation/configs/convnext/upernet_convnext_base_640_160k_ade20k_ms.py	/^        in_channels=512,$/;"	v
+in_channels	semantic_segmentation/configs/convnext/upernet_convnext_base_640_160k_ade20k_ms.py	/^        in_channels=[128, 256, 512, 1024],$/;"	v
+in_channels	semantic_segmentation/configs/convnext/upernet_convnext_base_640_160k_ade20k_ss.py	/^        in_channels=512,$/;"	v
+in_channels	semantic_segmentation/configs/convnext/upernet_convnext_base_640_160k_ade20k_ss.py	/^        in_channels=[128, 256, 512, 1024],$/;"	v
+in_channels	semantic_segmentation/configs/convnext/upernet_convnext_large_640_160k_ade20k_ms.py	/^        in_channels=768,$/;"	v
+in_channels	semantic_segmentation/configs/convnext/upernet_convnext_large_640_160k_ade20k_ms.py	/^        in_channels=[192, 384, 768, 1536],$/;"	v
+in_channels	semantic_segmentation/configs/convnext/upernet_convnext_large_640_160k_ade20k_ss.py	/^        in_channels=768,$/;"	v
+in_channels	semantic_segmentation/configs/convnext/upernet_convnext_large_640_160k_ade20k_ss.py	/^        in_channels=[192, 384, 768, 1536],$/;"	v
+in_channels	semantic_segmentation/configs/convnext/upernet_convnext_small_512_160k_ade20k_ms.py	/^        in_channels=384,$/;"	v
+in_channels	semantic_segmentation/configs/convnext/upernet_convnext_small_512_160k_ade20k_ms.py	/^        in_channels=[96, 192, 384, 768],$/;"	v
+in_channels	semantic_segmentation/configs/convnext/upernet_convnext_small_512_160k_ade20k_ss.py	/^        in_channels=384,$/;"	v
+in_channels	semantic_segmentation/configs/convnext/upernet_convnext_small_512_160k_ade20k_ss.py	/^        in_channels=[96, 192, 384, 768],$/;"	v
+in_channels	semantic_segmentation/configs/convnext/upernet_convnext_tiny_512_160k_ade20k_ms.py	/^        in_channels=384,$/;"	v
+in_channels	semantic_segmentation/configs/convnext/upernet_convnext_tiny_512_160k_ade20k_ms.py	/^        in_channels=[96, 192, 384, 768],$/;"	v
+in_channels	semantic_segmentation/configs/convnext/upernet_convnext_tiny_512_160k_ade20k_ss.py	/^        in_channels=384,$/;"	v
+in_channels	semantic_segmentation/configs/convnext/upernet_convnext_tiny_512_160k_ade20k_ss.py	/^        in_channels=[96, 192, 384, 768],$/;"	v
+in_channels	semantic_segmentation/configs/convnext/upernet_convnext_xlarge_640_160k_ade20k_ms.py	/^        in_channels=1024,$/;"	v
+in_channels	semantic_segmentation/configs/convnext/upernet_convnext_xlarge_640_160k_ade20k_ms.py	/^        in_channels=[256, 512, 1024, 2048],$/;"	v
+in_channels	semantic_segmentation/configs/convnext/upernet_convnext_xlarge_640_160k_ade20k_ss.py	/^        in_channels=1024,$/;"	v
+in_channels	semantic_segmentation/configs/convnext/upernet_convnext_xlarge_640_160k_ade20k_ss.py	/^        in_channels=[256, 512, 1024, 2048],$/;"	v
+in_chans	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^        in_chans=3,$/;"	v
+in_chans	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^        in_chans=3,$/;"	v
+in_chans	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^        in_chans=3,$/;"	v
+in_chans	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^        in_chans=3,$/;"	v
+in_chans	object_detection/configs/convnext/cascade_mask_rcnn_convnext_large_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^        in_chans=3,$/;"	v
+in_chans	object_detection/configs/convnext/cascade_mask_rcnn_convnext_small_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^        in_chans=3,$/;"	v
+in_chans	object_detection/configs/convnext/cascade_mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^        in_chans=3,$/;"	v
+in_chans	object_detection/configs/convnext/cascade_mask_rcnn_convnext_xlarge_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^        in_chans=3,$/;"	v
+in_chans	object_detection/configs/convnext/mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_adamw_3x_coco_in1k.py	/^        in_chans=3,$/;"	v
+in_chans	semantic_segmentation/configs/_base_/models/upernet_convnext.py	/^        in_chans=3,$/;"	v
+in_chans	semantic_segmentation/configs/convnext/upernet_convnext_base_512_160k_ade20k_ms.py	/^        in_chans=3,$/;"	v
+in_chans	semantic_segmentation/configs/convnext/upernet_convnext_base_512_160k_ade20k_ss.py	/^        in_chans=3,$/;"	v
+in_chans	semantic_segmentation/configs/convnext/upernet_convnext_base_640_160k_ade20k_ms.py	/^        in_chans=3,$/;"	v
+in_chans	semantic_segmentation/configs/convnext/upernet_convnext_base_640_160k_ade20k_ss.py	/^        in_chans=3,$/;"	v
+in_chans	semantic_segmentation/configs/convnext/upernet_convnext_large_640_160k_ade20k_ms.py	/^        in_chans=3,$/;"	v
+in_chans	semantic_segmentation/configs/convnext/upernet_convnext_large_640_160k_ade20k_ss.py	/^        in_chans=3,$/;"	v
+in_chans	semantic_segmentation/configs/convnext/upernet_convnext_small_512_160k_ade20k_ms.py	/^        in_chans=3,$/;"	v
+in_chans	semantic_segmentation/configs/convnext/upernet_convnext_small_512_160k_ade20k_ss.py	/^        in_chans=3,$/;"	v
+in_chans	semantic_segmentation/configs/convnext/upernet_convnext_tiny_512_160k_ade20k_ms.py	/^        in_chans=3,$/;"	v
+in_chans	semantic_segmentation/configs/convnext/upernet_convnext_tiny_512_160k_ade20k_ss.py	/^        in_chans=3,$/;"	v
+in_chans	semantic_segmentation/configs/convnext/upernet_convnext_xlarge_640_160k_ade20k_ms.py	/^        in_chans=3,$/;"	v
+in_chans	semantic_segmentation/configs/convnext/upernet_convnext_xlarge_640_160k_ade20k_ss.py	/^        in_chans=3,$/;"	v
+in_index	semantic_segmentation/configs/_base_/models/upernet_convnext.py	/^        in_index=2,$/;"	v
+in_index	semantic_segmentation/configs/_base_/models/upernet_convnext.py	/^        in_index=[0, 1, 2, 3],$/;"	v
+init_distributed_mode	utils.py	/^def init_distributed_mode(args):$/;"	f
+init_weights	object_detection/mmdet/models/backbones/convnext.py	/^    def init_weights(self, pretrained=None):$/;"	m	class:ConvNeXt
+init_weights	semantic_segmentation/backbone/convnext.py	/^    def init_weights(self, pretrained=None):$/;"	m	class:ConvNeXt
+interval	object_detection/configs/_base_/default_runtime.py	/^    interval=50,$/;"	v
+interval	semantic_segmentation/configs/_base_/default_runtime.py	/^    interval=50,$/;"	v
+is_dist_avail_and_initialized	utils.py	/^def is_dist_avail_and_initialized():$/;"	f
+is_main_process	utils.py	/^def is_main_process():$/;"	f
+keep_ratio	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                      keep_ratio=True)$/;"	v
+keep_ratio	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                      keep_ratio=True),$/;"	v
+keep_ratio	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                      keep_ratio=True)$/;"	v
+keep_ratio	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                      keep_ratio=True),$/;"	v
+keep_ratio	object_detection/configs/convnext/cascade_mask_rcnn_convnext_large_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                      keep_ratio=True)$/;"	v
+keep_ratio	object_detection/configs/convnext/cascade_mask_rcnn_convnext_large_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                      keep_ratio=True),$/;"	v
+keep_ratio	object_detection/configs/convnext/cascade_mask_rcnn_convnext_small_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                      keep_ratio=True)$/;"	v
+keep_ratio	object_detection/configs/convnext/cascade_mask_rcnn_convnext_small_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                      keep_ratio=True),$/;"	v
+keep_ratio	object_detection/configs/convnext/cascade_mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                      keep_ratio=True)$/;"	v
+keep_ratio	object_detection/configs/convnext/cascade_mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                      keep_ratio=True),$/;"	v
+keep_ratio	object_detection/configs/convnext/cascade_mask_rcnn_convnext_xlarge_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                      keep_ratio=True)$/;"	v
+keep_ratio	object_detection/configs/convnext/cascade_mask_rcnn_convnext_xlarge_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                      keep_ratio=True),$/;"	v
+keep_ratio	object_detection/configs/convnext/mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_adamw_3x_coco_in1k.py	/^                      keep_ratio=True)$/;"	v
+keep_ratio	object_detection/configs/convnext/mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_adamw_3x_coco_in1k.py	/^                      keep_ratio=True),$/;"	v
+layer_scale_init_value	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^        layer_scale_init_value=1e-6,$/;"	v
+layer_scale_init_value	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^        layer_scale_init_value=1e-6,$/;"	v
+layer_scale_init_value	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^        layer_scale_init_value=1.0,$/;"	v
+layer_scale_init_value	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^        layer_scale_init_value=1.0,$/;"	v
+layer_scale_init_value	object_detection/configs/convnext/cascade_mask_rcnn_convnext_large_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^        layer_scale_init_value=1.0,$/;"	v
+layer_scale_init_value	object_detection/configs/convnext/cascade_mask_rcnn_convnext_small_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^        layer_scale_init_value=1.0,$/;"	v
+layer_scale_init_value	object_detection/configs/convnext/cascade_mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^        layer_scale_init_value=1.0,$/;"	v
+layer_scale_init_value	object_detection/configs/convnext/cascade_mask_rcnn_convnext_xlarge_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^        layer_scale_init_value=1.0,$/;"	v
+layer_scale_init_value	object_detection/configs/convnext/mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_adamw_3x_coco_in1k.py	/^        layer_scale_init_value=1.0,$/;"	v
+layer_scale_init_value	semantic_segmentation/configs/_base_/models/upernet_convnext.py	/^        layer_scale_init_value=1.0,$/;"	v
+layer_scale_init_value	semantic_segmentation/configs/convnext/upernet_convnext_base_512_160k_ade20k_ms.py	/^        layer_scale_init_value=1.0,$/;"	v
+layer_scale_init_value	semantic_segmentation/configs/convnext/upernet_convnext_base_512_160k_ade20k_ss.py	/^        layer_scale_init_value=1.0,$/;"	v
+layer_scale_init_value	semantic_segmentation/configs/convnext/upernet_convnext_base_640_160k_ade20k_ms.py	/^        layer_scale_init_value=1.0,$/;"	v
+layer_scale_init_value	semantic_segmentation/configs/convnext/upernet_convnext_base_640_160k_ade20k_ss.py	/^        layer_scale_init_value=1.0,$/;"	v
+layer_scale_init_value	semantic_segmentation/configs/convnext/upernet_convnext_large_640_160k_ade20k_ms.py	/^        layer_scale_init_value=1.0,$/;"	v
+layer_scale_init_value	semantic_segmentation/configs/convnext/upernet_convnext_large_640_160k_ade20k_ss.py	/^        layer_scale_init_value=1.0,$/;"	v
+layer_scale_init_value	semantic_segmentation/configs/convnext/upernet_convnext_small_512_160k_ade20k_ms.py	/^        layer_scale_init_value=1.0,$/;"	v
+layer_scale_init_value	semantic_segmentation/configs/convnext/upernet_convnext_small_512_160k_ade20k_ss.py	/^        layer_scale_init_value=1.0,$/;"	v
+layer_scale_init_value	semantic_segmentation/configs/convnext/upernet_convnext_tiny_512_160k_ade20k_ms.py	/^        layer_scale_init_value=1.0,$/;"	v
+layer_scale_init_value	semantic_segmentation/configs/convnext/upernet_convnext_tiny_512_160k_ade20k_ss.py	/^        layer_scale_init_value=1.0,$/;"	v
+layer_scale_init_value	semantic_segmentation/configs/convnext/upernet_convnext_xlarge_640_160k_ade20k_ms.py	/^        layer_scale_init_value=1.0,$/;"	v
+layer_scale_init_value	semantic_segmentation/configs/convnext/upernet_convnext_xlarge_640_160k_ade20k_ss.py	/^        layer_scale_init_value=1.0,$/;"	v
+load	utils.py	/^    def load(module, prefix=''):$/;"	f	function:load_state_dict
+load_from	object_detection/configs/_base_/default_runtime.py	/^load_from = None$/;"	v
+load_from	semantic_segmentation/configs/_base_/default_runtime.py	/^load_from = None$/;"	v
+load_state_dict	utils.py	/^    def load_state_dict(self, state_dict):$/;"	m	class:NativeScalerWithGradNormCount
+load_state_dict	utils.py	/^def load_state_dict(model, state_dict, prefix='', ignore_missing="relative_position_index"):$/;"	f
+log	object_detection/mmcv_custom/customized_text.py	/^    def log(self, runner):$/;"	m	class:CustomizedTextLoggerHook
+log	semantic_segmentation/mmcv_custom/customized_text.py	/^    def log(self, runner):$/;"	m	class:CustomizedTextLoggerHook
+log_checkpoints	utils.py	/^    def log_checkpoints(self):$/;"	m	class:WandbLogger
+log_config	object_detection/configs/_base_/default_runtime.py	/^log_config = dict($/;"	v
+log_config	semantic_segmentation/configs/_base_/default_runtime.py	/^log_config = dict($/;"	v
+log_epoch_metrics	utils.py	/^    def log_epoch_metrics(self, metrics, commit=True):$/;"	m	class:WandbLogger
+log_every	utils.py	/^    def log_every(self, iterable, print_freq, header=None):$/;"	m	class:MetricLogger
+log_level	object_detection/configs/_base_/default_runtime.py	/^log_level = 'INFO'$/;"	v
+log_level	semantic_segmentation/configs/_base_/default_runtime.py	/^log_level = 'INFO'$/;"	v
+loss_bbox	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^                loss_bbox=dict(type='SmoothL1Loss', beta=1.0, loss_weight=1.0))$/;"	v
+loss_bbox	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^                loss_bbox=dict(type='SmoothL1Loss', beta=1.0,$/;"	v
+loss_bbox	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^        loss_bbox=dict(type='SmoothL1Loss', beta=1.0 \/ 9.0, loss_weight=1.0)),$/;"	v
+loss_bbox	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^            loss_bbox=dict(type='L1Loss', loss_weight=1.0)),$/;"	v
+loss_bbox	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^        loss_bbox=dict(type='L1Loss', loss_weight=1.0)),$/;"	v
+loss_bbox	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                loss_bbox=dict(type='GIoULoss', loss_weight=10.0))$/;"	v
+loss_bbox	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                loss_bbox=dict(type='GIoULoss', loss_weight=10.0)),$/;"	v
+loss_bbox	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                loss_bbox=dict(type='GIoULoss', loss_weight=10.0))$/;"	v
+loss_bbox	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                loss_bbox=dict(type='GIoULoss', loss_weight=10.0)),$/;"	v
+loss_bbox	object_detection/configs/convnext/cascade_mask_rcnn_convnext_large_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                loss_bbox=dict(type='GIoULoss', loss_weight=10.0))$/;"	v
+loss_bbox	object_detection/configs/convnext/cascade_mask_rcnn_convnext_large_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                loss_bbox=dict(type='GIoULoss', loss_weight=10.0)),$/;"	v
+loss_bbox	object_detection/configs/convnext/cascade_mask_rcnn_convnext_small_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                loss_bbox=dict(type='GIoULoss', loss_weight=10.0))$/;"	v
+loss_bbox	object_detection/configs/convnext/cascade_mask_rcnn_convnext_small_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                loss_bbox=dict(type='GIoULoss', loss_weight=10.0)),$/;"	v
+loss_bbox	object_detection/configs/convnext/cascade_mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                loss_bbox=dict(type='GIoULoss', loss_weight=10.0))$/;"	v
+loss_bbox	object_detection/configs/convnext/cascade_mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                loss_bbox=dict(type='GIoULoss', loss_weight=10.0)),$/;"	v
+loss_bbox	object_detection/configs/convnext/cascade_mask_rcnn_convnext_xlarge_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                loss_bbox=dict(type='GIoULoss', loss_weight=10.0))$/;"	v
+loss_bbox	object_detection/configs/convnext/cascade_mask_rcnn_convnext_xlarge_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                loss_bbox=dict(type='GIoULoss', loss_weight=10.0)),$/;"	v
+loss_cls	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^                loss_cls=dict($/;"	v
+loss_cls	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^        loss_cls=dict($/;"	v
+loss_cls	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^            loss_cls=dict($/;"	v
+loss_cls	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^        loss_cls=dict($/;"	v
+loss_cls	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                loss_cls=dict($/;"	v
+loss_cls	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                loss_cls=dict($/;"	v
+loss_cls	object_detection/configs/convnext/cascade_mask_rcnn_convnext_large_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                loss_cls=dict($/;"	v
+loss_cls	object_detection/configs/convnext/cascade_mask_rcnn_convnext_small_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                loss_cls=dict($/;"	v
+loss_cls	object_detection/configs/convnext/cascade_mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                loss_cls=dict($/;"	v
+loss_cls	object_detection/configs/convnext/cascade_mask_rcnn_convnext_xlarge_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                loss_cls=dict($/;"	v
+loss_decode	semantic_segmentation/configs/_base_/models/upernet_convnext.py	/^        loss_decode=dict($/;"	v
+loss_mask	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^            loss_mask=dict($/;"	v
+loss_mask	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^            loss_mask=dict($/;"	v
+loss_weight	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^                               loss_weight=1.0)),$/;"	v
+loss_weight	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^                    loss_weight=1.0),$/;"	v
+lr_config	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^lr_config = dict(step=[27, 33])$/;"	v
+lr_config	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^lr_config = dict(step=[27, 33])$/;"	v
+lr_config	object_detection/configs/convnext/cascade_mask_rcnn_convnext_large_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^lr_config = dict(step=[27, 33])$/;"	v
+lr_config	object_detection/configs/convnext/cascade_mask_rcnn_convnext_small_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^lr_config = dict(step=[27, 33])$/;"	v
+lr_config	object_detection/configs/convnext/cascade_mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^lr_config = dict(step=[27, 33])$/;"	v
+lr_config	object_detection/configs/convnext/cascade_mask_rcnn_convnext_xlarge_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^lr_config = dict(step=[27, 33])$/;"	v
+lr_config	object_detection/configs/convnext/mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_adamw_3x_coco_in1k.py	/^lr_config = dict(step=[27, 33])$/;"	v
+lr_config	semantic_segmentation/configs/convnext/upernet_convnext_base_512_160k_ade20k_ms.py	/^lr_config = dict(_delete_=True, policy='poly',$/;"	v
+lr_config	semantic_segmentation/configs/convnext/upernet_convnext_base_512_160k_ade20k_ss.py	/^lr_config = dict(_delete_=True, policy='poly',$/;"	v
+lr_config	semantic_segmentation/configs/convnext/upernet_convnext_base_640_160k_ade20k_ms.py	/^lr_config = dict(_delete_=True, policy='poly',$/;"	v
+lr_config	semantic_segmentation/configs/convnext/upernet_convnext_base_640_160k_ade20k_ss.py	/^lr_config = dict(_delete_=True, policy='poly',$/;"	v
+lr_config	semantic_segmentation/configs/convnext/upernet_convnext_large_640_160k_ade20k_ms.py	/^lr_config = dict(_delete_=True, policy='poly',$/;"	v
+lr_config	semantic_segmentation/configs/convnext/upernet_convnext_large_640_160k_ade20k_ss.py	/^lr_config = dict(_delete_=True, policy='poly',$/;"	v
+lr_config	semantic_segmentation/configs/convnext/upernet_convnext_small_512_160k_ade20k_ms.py	/^lr_config = dict(_delete_=True, policy='poly',$/;"	v
+lr_config	semantic_segmentation/configs/convnext/upernet_convnext_small_512_160k_ade20k_ss.py	/^lr_config = dict(_delete_=True, policy='poly',$/;"	v
+lr_config	semantic_segmentation/configs/convnext/upernet_convnext_tiny_512_160k_ade20k_ms.py	/^lr_config = dict(_delete_=True, policy='poly',$/;"	v
+lr_config	semantic_segmentation/configs/convnext/upernet_convnext_tiny_512_160k_ade20k_ss.py	/^lr_config = dict(_delete_=True, policy='poly',$/;"	v
+lr_config	semantic_segmentation/configs/convnext/upernet_convnext_xlarge_640_160k_ade20k_ms.py	/^lr_config = dict(_delete_=True, policy='poly',$/;"	v
+lr_config	semantic_segmentation/configs/convnext/upernet_convnext_xlarge_640_160k_ade20k_ss.py	/^lr_config = dict(_delete_=True, policy='poly',$/;"	v
+main	main.py	/^def main(args):$/;"	f
+main	run_with_submitit.py	/^def main():$/;"	f
+mask_head	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^        mask_head=dict($/;"	v
+mask_head	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^        mask_head=dict($/;"	v
+mask_roi_extractor	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^        mask_roi_extractor=dict($/;"	v
+mask_roi_extractor	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^        mask_roi_extractor=dict($/;"	v
+mask_size	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^                mask_size=28,$/;"	v
+mask_size	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^            mask_size=28,$/;"	v
+mask_thr_binary	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^            mask_thr_binary=0.5)))$/;"	v
+mask_thr_binary	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^            mask_thr_binary=0.5)))$/;"	v
+match_low_quality	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^                    match_low_quality=False,$/;"	v
+match_low_quality	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^                match_low_quality=True,$/;"	v
+match_low_quality	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^                match_low_quality=True,$/;"	v
+max	utils.py	/^    def max(self):$/;"	m	class:SmoothedValue
+max_per_img	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^            max_per_img=100,$/;"	v
+max_per_img	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^            max_per_img=1000,$/;"	v
+max_per_img	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^            max_per_img=2000,$/;"	v
+max_per_img	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^            max_per_img=100,$/;"	v
+max_per_img	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^            max_per_img=1000,$/;"	v
+median	utils.py	/^    def median(self):$/;"	m	class:SmoothedValue
+min_bbox_size	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^            min_bbox_size=0),$/;"	v
+min_bbox_size	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^            min_bbox_size=0),$/;"	v
+min_pos_iou	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^                    min_pos_iou=0.5,$/;"	v
+min_pos_iou	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^                    min_pos_iou=0.6,$/;"	v
+min_pos_iou	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^                    min_pos_iou=0.7,$/;"	v
+min_pos_iou	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^                min_pos_iou=0.3,$/;"	v
+min_pos_iou	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^                min_pos_iou=0.3,$/;"	v
+min_pos_iou	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^                min_pos_iou=0.5,$/;"	v
+model	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^model = dict($/;"	v
+model	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^model = dict($/;"	v
+model	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^model = dict($/;"	v
+model	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^model = dict($/;"	v
+model	object_detection/configs/convnext/cascade_mask_rcnn_convnext_large_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^model = dict($/;"	v
+model	object_detection/configs/convnext/cascade_mask_rcnn_convnext_small_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^model = dict($/;"	v
+model	object_detection/configs/convnext/cascade_mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^model = dict($/;"	v
+model	object_detection/configs/convnext/cascade_mask_rcnn_convnext_xlarge_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^model = dict($/;"	v
+model	object_detection/configs/convnext/mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_adamw_3x_coco_in1k.py	/^model = dict($/;"	v
+model	semantic_segmentation/configs/_base_/models/upernet_convnext.py	/^model = dict($/;"	v
+model	semantic_segmentation/configs/convnext/upernet_convnext_base_512_160k_ade20k_ms.py	/^model = dict($/;"	v
+model	semantic_segmentation/configs/convnext/upernet_convnext_base_512_160k_ade20k_ss.py	/^model = dict($/;"	v
+model	semantic_segmentation/configs/convnext/upernet_convnext_base_640_160k_ade20k_ms.py	/^model = dict($/;"	v
+model	semantic_segmentation/configs/convnext/upernet_convnext_base_640_160k_ade20k_ss.py	/^model = dict($/;"	v
+model	semantic_segmentation/configs/convnext/upernet_convnext_large_640_160k_ade20k_ms.py	/^model = dict($/;"	v
+model	semantic_segmentation/configs/convnext/upernet_convnext_large_640_160k_ade20k_ss.py	/^model = dict($/;"	v
+model	semantic_segmentation/configs/convnext/upernet_convnext_small_512_160k_ade20k_ms.py	/^model = dict($/;"	v
+model	semantic_segmentation/configs/convnext/upernet_convnext_small_512_160k_ade20k_ss.py	/^model = dict($/;"	v
+model	semantic_segmentation/configs/convnext/upernet_convnext_tiny_512_160k_ade20k_ms.py	/^model = dict($/;"	v
+model	semantic_segmentation/configs/convnext/upernet_convnext_tiny_512_160k_ade20k_ss.py	/^model = dict($/;"	v
+model	semantic_segmentation/configs/convnext/upernet_convnext_xlarge_640_160k_ade20k_ms.py	/^model = dict($/;"	v
+model	semantic_segmentation/configs/convnext/upernet_convnext_xlarge_640_160k_ade20k_ss.py	/^model = dict($/;"	v
+model_urls	models/convnext.py	/^model_urls = {$/;"	v
+multiscale_mode	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                      multiscale_mode='value',$/;"	v
+multiscale_mode	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                      multiscale_mode='value',$/;"	v
+multiscale_mode	object_detection/configs/convnext/cascade_mask_rcnn_convnext_large_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                      multiscale_mode='value',$/;"	v
+multiscale_mode	object_detection/configs/convnext/cascade_mask_rcnn_convnext_small_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                      multiscale_mode='value',$/;"	v
+multiscale_mode	object_detection/configs/convnext/cascade_mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                      multiscale_mode='value',$/;"	v
+multiscale_mode	object_detection/configs/convnext/cascade_mask_rcnn_convnext_xlarge_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                      multiscale_mode='value',$/;"	v
+multiscale_mode	object_detection/configs/convnext/mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_adamw_3x_coco_in1k.py	/^                      multiscale_mode='value',$/;"	v
+neck	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^    neck=dict($/;"	v
+neck	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^    neck=dict($/;"	v
+neck	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^    neck=dict(in_channels=[128, 256, 512, 1024]),$/;"	v
+neck	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^    neck=dict(in_channels=[128, 256, 512, 1024]),$/;"	v
+neck	object_detection/configs/convnext/cascade_mask_rcnn_convnext_large_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^    neck=dict(in_channels=[192, 384, 768, 1536]),$/;"	v
+neck	object_detection/configs/convnext/cascade_mask_rcnn_convnext_small_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^    neck=dict(in_channels=[96, 192, 384, 768]),$/;"	v
+neck	object_detection/configs/convnext/cascade_mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^    neck=dict(in_channels=[96, 192, 384, 768]),$/;"	v
+neck	object_detection/configs/convnext/cascade_mask_rcnn_convnext_xlarge_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^    neck=dict(in_channels=[256, 512, 1024, 2048]),$/;"	v
+neck	object_detection/configs/convnext/mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_adamw_3x_coco_in1k.py	/^    neck=dict(in_channels=[96, 192, 384, 768]))$/;"	v
+neg_iou_thr	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^                    neg_iou_thr=0.5,$/;"	v
+neg_iou_thr	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^                    neg_iou_thr=0.6,$/;"	v
+neg_iou_thr	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^                    neg_iou_thr=0.7,$/;"	v
+neg_iou_thr	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^                neg_iou_thr=0.3,$/;"	v
+neg_iou_thr	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^                neg_iou_thr=0.3,$/;"	v
+neg_iou_thr	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^                neg_iou_thr=0.5,$/;"	v
+neg_pos_ub	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^                    neg_pos_ub=-1,$/;"	v
+neg_pos_ub	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^                neg_pos_ub=-1,$/;"	v
+neg_pos_ub	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^                neg_pos_ub=-1,$/;"	v
+nms	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^            nms=dict(type='nms', iou_threshold=0.5),$/;"	v
+nms	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^            nms=dict(type='nms', iou_threshold=0.7),$/;"	v
+nms	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^            nms=dict(type='nms', iou_threshold=0.5),$/;"	v
+nms	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^            nms=dict(type='nms', iou_threshold=0.7),$/;"	v
+nms_across_levels	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^            nms_across_levels=False,$/;"	v
+nms_post	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^            nms_post=1000,$/;"	v
+nms_post	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^            nms_post=2000,$/;"	v
+nms_pre	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^            nms_pre=1000,$/;"	v
+nms_pre	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^            nms_pre=2000,$/;"	v
+nms_pre	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^            nms_pre=1000,$/;"	v
+nms_pre	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^            nms_pre=2000,$/;"	v
+norm_cfg	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                norm_cfg=dict(type='SyncBN', requires_grad=True),$/;"	v
+norm_cfg	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                norm_cfg=dict(type='SyncBN', requires_grad=True),$/;"	v
+norm_cfg	object_detection/configs/convnext/cascade_mask_rcnn_convnext_large_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                norm_cfg=dict(type='SyncBN', requires_grad=True),$/;"	v
+norm_cfg	object_detection/configs/convnext/cascade_mask_rcnn_convnext_small_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                norm_cfg=dict(type='SyncBN', requires_grad=True),$/;"	v
+norm_cfg	object_detection/configs/convnext/cascade_mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                norm_cfg=dict(type='SyncBN', requires_grad=True),$/;"	v
+norm_cfg	object_detection/configs/convnext/cascade_mask_rcnn_convnext_xlarge_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                norm_cfg=dict(type='SyncBN', requires_grad=True),$/;"	v
+norm_cfg	semantic_segmentation/configs/_base_/models/upernet_convnext.py	/^        norm_cfg=norm_cfg,$/;"	v
+norm_cfg	semantic_segmentation/configs/_base_/models/upernet_convnext.py	/^norm_cfg = dict(type='SyncBN', requires_grad=True)$/;"	v
+num	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^                    num=512,$/;"	v
+num	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^                num=256,$/;"	v
+num	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^                num=256,$/;"	v
+num	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^                num=512,$/;"	v
+num_classes	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^                num_classes=80,$/;"	v
+num_classes	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^            num_classes=80,$/;"	v
+num_classes	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^            num_classes=80,$/;"	v
+num_classes	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                num_classes=80,$/;"	v
+num_classes	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                num_classes=80,$/;"	v
+num_classes	object_detection/configs/convnext/cascade_mask_rcnn_convnext_large_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                num_classes=80,$/;"	v
+num_classes	object_detection/configs/convnext/cascade_mask_rcnn_convnext_small_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                num_classes=80,$/;"	v
+num_classes	object_detection/configs/convnext/cascade_mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                num_classes=80,$/;"	v
+num_classes	object_detection/configs/convnext/cascade_mask_rcnn_convnext_xlarge_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                num_classes=80,$/;"	v
+num_classes	semantic_segmentation/configs/_base_/models/upernet_convnext.py	/^        num_classes=19,$/;"	v
+num_classes	semantic_segmentation/configs/convnext/upernet_convnext_base_512_160k_ade20k_ms.py	/^        num_classes=150$/;"	v
+num_classes	semantic_segmentation/configs/convnext/upernet_convnext_base_512_160k_ade20k_ms.py	/^        num_classes=150,$/;"	v
+num_classes	semantic_segmentation/configs/convnext/upernet_convnext_base_512_160k_ade20k_ss.py	/^        num_classes=150$/;"	v
+num_classes	semantic_segmentation/configs/convnext/upernet_convnext_base_512_160k_ade20k_ss.py	/^        num_classes=150,$/;"	v
+num_classes	semantic_segmentation/configs/convnext/upernet_convnext_base_640_160k_ade20k_ms.py	/^        num_classes=150$/;"	v
+num_classes	semantic_segmentation/configs/convnext/upernet_convnext_base_640_160k_ade20k_ms.py	/^        num_classes=150,$/;"	v
+num_classes	semantic_segmentation/configs/convnext/upernet_convnext_base_640_160k_ade20k_ss.py	/^        num_classes=150$/;"	v
+num_classes	semantic_segmentation/configs/convnext/upernet_convnext_base_640_160k_ade20k_ss.py	/^        num_classes=150,$/;"	v
+num_classes	semantic_segmentation/configs/convnext/upernet_convnext_large_640_160k_ade20k_ms.py	/^        num_classes=150$/;"	v
+num_classes	semantic_segmentation/configs/convnext/upernet_convnext_large_640_160k_ade20k_ms.py	/^        num_classes=150,$/;"	v
+num_classes	semantic_segmentation/configs/convnext/upernet_convnext_large_640_160k_ade20k_ss.py	/^        num_classes=150$/;"	v
+num_classes	semantic_segmentation/configs/convnext/upernet_convnext_large_640_160k_ade20k_ss.py	/^        num_classes=150,$/;"	v
+num_classes	semantic_segmentation/configs/convnext/upernet_convnext_small_512_160k_ade20k_ms.py	/^        num_classes=150$/;"	v
+num_classes	semantic_segmentation/configs/convnext/upernet_convnext_small_512_160k_ade20k_ms.py	/^        num_classes=150,$/;"	v
+num_classes	semantic_segmentation/configs/convnext/upernet_convnext_small_512_160k_ade20k_ss.py	/^        num_classes=150$/;"	v
+num_classes	semantic_segmentation/configs/convnext/upernet_convnext_small_512_160k_ade20k_ss.py	/^        num_classes=150,$/;"	v
+num_classes	semantic_segmentation/configs/convnext/upernet_convnext_tiny_512_160k_ade20k_ms.py	/^        num_classes=150$/;"	v
+num_classes	semantic_segmentation/configs/convnext/upernet_convnext_tiny_512_160k_ade20k_ms.py	/^        num_classes=150,$/;"	v
+num_classes	semantic_segmentation/configs/convnext/upernet_convnext_tiny_512_160k_ade20k_ss.py	/^        num_classes=150$/;"	v
+num_classes	semantic_segmentation/configs/convnext/upernet_convnext_tiny_512_160k_ade20k_ss.py	/^        num_classes=150,$/;"	v
+num_classes	semantic_segmentation/configs/convnext/upernet_convnext_xlarge_640_160k_ade20k_ms.py	/^        num_classes=150$/;"	v
+num_classes	semantic_segmentation/configs/convnext/upernet_convnext_xlarge_640_160k_ade20k_ms.py	/^        num_classes=150,$/;"	v
+num_classes	semantic_segmentation/configs/convnext/upernet_convnext_xlarge_640_160k_ade20k_ss.py	/^        num_classes=150$/;"	v
+num_classes	semantic_segmentation/configs/convnext/upernet_convnext_xlarge_640_160k_ade20k_ss.py	/^        num_classes=150,$/;"	v
+num_convs	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^            num_convs=4,$/;"	v
+num_convs	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^            num_convs=4,$/;"	v
+num_convs	semantic_segmentation/configs/_base_/models/upernet_convnext.py	/^        num_convs=1,$/;"	v
+num_outs	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^        num_outs=5),$/;"	v
+num_outs	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^        num_outs=5),$/;"	v
+num_shared_convs	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                num_shared_convs=4,$/;"	v
+num_shared_convs	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                num_shared_convs=4,$/;"	v
+num_shared_convs	object_detection/configs/convnext/cascade_mask_rcnn_convnext_large_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                num_shared_convs=4,$/;"	v
+num_shared_convs	object_detection/configs/convnext/cascade_mask_rcnn_convnext_small_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                num_shared_convs=4,$/;"	v
+num_shared_convs	object_detection/configs/convnext/cascade_mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                num_shared_convs=4,$/;"	v
+num_shared_convs	object_detection/configs/convnext/cascade_mask_rcnn_convnext_xlarge_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                num_shared_convs=4,$/;"	v
+num_shared_fcs	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                num_shared_fcs=1,$/;"	v
+num_shared_fcs	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                num_shared_fcs=1,$/;"	v
+num_shared_fcs	object_detection/configs/convnext/cascade_mask_rcnn_convnext_large_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                num_shared_fcs=1,$/;"	v
+num_shared_fcs	object_detection/configs/convnext/cascade_mask_rcnn_convnext_small_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                num_shared_fcs=1,$/;"	v
+num_shared_fcs	object_detection/configs/convnext/cascade_mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                num_shared_fcs=1,$/;"	v
+num_shared_fcs	object_detection/configs/convnext/cascade_mask_rcnn_convnext_xlarge_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                num_shared_fcs=1,$/;"	v
+num_stages	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^        num_stages=3,$/;"	v
+optimizer	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^optimizer = dict(constructor='LearningRateDecayOptimizerConstructor', _delete_=True, type='AdamW', $/;"	v
+optimizer	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^optimizer = dict(constructor='LearningRateDecayOptimizerConstructor', _delete_=True, type='AdamW', $/;"	v
+optimizer	object_detection/configs/convnext/cascade_mask_rcnn_convnext_large_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^optimizer = dict(constructor='LearningRateDecayOptimizerConstructor', _delete_=True, type='AdamW', $/;"	v
+optimizer	object_detection/configs/convnext/cascade_mask_rcnn_convnext_small_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^optimizer = dict(constructor='LearningRateDecayOptimizerConstructor', _delete_=True, type='AdamW', $/;"	v
+optimizer	object_detection/configs/convnext/cascade_mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^optimizer = dict(constructor='LearningRateDecayOptimizerConstructor', _delete_=True, type='AdamW', $/;"	v
+optimizer	object_detection/configs/convnext/cascade_mask_rcnn_convnext_xlarge_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^optimizer = dict(constructor='LearningRateDecayOptimizerConstructor', _delete_=True, type='AdamW', $/;"	v
+optimizer	object_detection/configs/convnext/mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_adamw_3x_coco_in1k.py	/^optimizer = dict(constructor='LearningRateDecayOptimizerConstructor', _delete_=True, type='AdamW', $/;"	v
+optimizer	semantic_segmentation/configs/convnext/upernet_convnext_base_512_160k_ade20k_ms.py	/^optimizer = dict(constructor='LearningRateDecayOptimizerConstructor', _delete_=True, type='AdamW', $/;"	v
+optimizer	semantic_segmentation/configs/convnext/upernet_convnext_base_512_160k_ade20k_ss.py	/^optimizer = dict(constructor='LearningRateDecayOptimizerConstructor', _delete_=True, type='AdamW', $/;"	v
+optimizer	semantic_segmentation/configs/convnext/upernet_convnext_base_640_160k_ade20k_ms.py	/^optimizer = dict(constructor='LearningRateDecayOptimizerConstructor', _delete_=True, type='AdamW', $/;"	v
+optimizer	semantic_segmentation/configs/convnext/upernet_convnext_base_640_160k_ade20k_ss.py	/^optimizer = dict(constructor='LearningRateDecayOptimizerConstructor', _delete_=True, type='AdamW', $/;"	v
+optimizer	semantic_segmentation/configs/convnext/upernet_convnext_large_640_160k_ade20k_ms.py	/^optimizer = dict(constructor='LearningRateDecayOptimizerConstructor', _delete_=True, type='AdamW', $/;"	v
+optimizer	semantic_segmentation/configs/convnext/upernet_convnext_large_640_160k_ade20k_ss.py	/^optimizer = dict(constructor='LearningRateDecayOptimizerConstructor', _delete_=True, type='AdamW', $/;"	v
+optimizer	semantic_segmentation/configs/convnext/upernet_convnext_small_512_160k_ade20k_ms.py	/^optimizer = dict(constructor='LearningRateDecayOptimizerConstructor', _delete_=True, type='AdamW', $/;"	v
+optimizer	semantic_segmentation/configs/convnext/upernet_convnext_small_512_160k_ade20k_ss.py	/^optimizer = dict(constructor='LearningRateDecayOptimizerConstructor', _delete_=True, type='AdamW', $/;"	v
+optimizer	semantic_segmentation/configs/convnext/upernet_convnext_tiny_512_160k_ade20k_ms.py	/^optimizer = dict(constructor='LearningRateDecayOptimizerConstructor', _delete_=True, type='AdamW', $/;"	v
+optimizer	semantic_segmentation/configs/convnext/upernet_convnext_tiny_512_160k_ade20k_ss.py	/^optimizer = dict(constructor='LearningRateDecayOptimizerConstructor', _delete_=True, type='AdamW', $/;"	v
+optimizer	semantic_segmentation/configs/convnext/upernet_convnext_xlarge_640_160k_ade20k_ms.py	/^optimizer = dict(constructor='LearningRateDecayOptimizerConstructor', _delete_=True, type='AdamW', $/;"	v
+optimizer	semantic_segmentation/configs/convnext/upernet_convnext_xlarge_640_160k_ade20k_ss.py	/^optimizer = dict(constructor='LearningRateDecayOptimizerConstructor', _delete_=True, type='AdamW', $/;"	v
+optimizer_config	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^optimizer_config = dict($/;"	v
+optimizer_config	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^optimizer_config = dict($/;"	v
+optimizer_config	object_detection/configs/convnext/cascade_mask_rcnn_convnext_large_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^optimizer_config = dict($/;"	v
+optimizer_config	object_detection/configs/convnext/cascade_mask_rcnn_convnext_small_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^optimizer_config = dict($/;"	v
+optimizer_config	object_detection/configs/convnext/cascade_mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^optimizer_config = dict($/;"	v
+optimizer_config	object_detection/configs/convnext/cascade_mask_rcnn_convnext_xlarge_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^optimizer_config = dict($/;"	v
+optimizer_config	object_detection/configs/convnext/mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_adamw_3x_coco_in1k.py	/^optimizer_config = dict($/;"	v
+optimizer_config	semantic_segmentation/configs/convnext/upernet_convnext_base_512_160k_ade20k_ms.py	/^optimizer_config = dict($/;"	v
+optimizer_config	semantic_segmentation/configs/convnext/upernet_convnext_base_512_160k_ade20k_ss.py	/^optimizer_config = dict($/;"	v
+optimizer_config	semantic_segmentation/configs/convnext/upernet_convnext_base_640_160k_ade20k_ms.py	/^optimizer_config = dict($/;"	v
+optimizer_config	semantic_segmentation/configs/convnext/upernet_convnext_base_640_160k_ade20k_ss.py	/^optimizer_config = dict($/;"	v
+optimizer_config	semantic_segmentation/configs/convnext/upernet_convnext_large_640_160k_ade20k_ms.py	/^optimizer_config = dict($/;"	v
+optimizer_config	semantic_segmentation/configs/convnext/upernet_convnext_large_640_160k_ade20k_ss.py	/^optimizer_config = dict($/;"	v
+optimizer_config	semantic_segmentation/configs/convnext/upernet_convnext_small_512_160k_ade20k_ms.py	/^optimizer_config = dict($/;"	v
+optimizer_config	semantic_segmentation/configs/convnext/upernet_convnext_small_512_160k_ade20k_ss.py	/^optimizer_config = dict($/;"	v
+optimizer_config	semantic_segmentation/configs/convnext/upernet_convnext_tiny_512_160k_ade20k_ms.py	/^optimizer_config = dict($/;"	v
+optimizer_config	semantic_segmentation/configs/convnext/upernet_convnext_tiny_512_160k_ade20k_ss.py	/^optimizer_config = dict($/;"	v
+optimizer_config	semantic_segmentation/configs/convnext/upernet_convnext_xlarge_640_160k_ade20k_ms.py	/^optimizer_config = dict($/;"	v
+optimizer_config	semantic_segmentation/configs/convnext/upernet_convnext_xlarge_640_160k_ade20k_ss.py	/^optimizer_config = dict($/;"	v
+out_channels	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^            out_channels=256,$/;"	v
+out_channels	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^        out_channels=256,$/;"	v
+out_channels	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^            out_channels=256,$/;"	v
+out_channels	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^        out_channels=256,$/;"	v
+out_indices	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^        out_indices=[0, 1, 2, 3],$/;"	v
+out_indices	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^        out_indices=[0, 1, 2, 3],$/;"	v
+out_indices	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^        out_indices=[0, 1, 2, 3],$/;"	v
+out_indices	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^        out_indices=[0, 1, 2, 3],$/;"	v
+out_indices	object_detection/configs/convnext/cascade_mask_rcnn_convnext_large_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^        out_indices=[0, 1, 2, 3],$/;"	v
+out_indices	object_detection/configs/convnext/cascade_mask_rcnn_convnext_small_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^        out_indices=[0, 1, 2, 3],$/;"	v
+out_indices	object_detection/configs/convnext/cascade_mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^        out_indices=[0, 1, 2, 3],$/;"	v
+out_indices	object_detection/configs/convnext/cascade_mask_rcnn_convnext_xlarge_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^        out_indices=[0, 1, 2, 3],$/;"	v
+out_indices	object_detection/configs/convnext/mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_adamw_3x_coco_in1k.py	/^        out_indices=[0, 1, 2, 3],$/;"	v
+out_indices	semantic_segmentation/configs/_base_/models/upernet_convnext.py	/^        out_indices=[0, 1, 2, 3],$/;"	v
+out_indices	semantic_segmentation/configs/convnext/upernet_convnext_base_512_160k_ade20k_ms.py	/^        out_indices=[0, 1, 2, 3],$/;"	v
+out_indices	semantic_segmentation/configs/convnext/upernet_convnext_base_512_160k_ade20k_ss.py	/^        out_indices=[0, 1, 2, 3],$/;"	v
+out_indices	semantic_segmentation/configs/convnext/upernet_convnext_base_640_160k_ade20k_ms.py	/^        out_indices=[0, 1, 2, 3],$/;"	v
+out_indices	semantic_segmentation/configs/convnext/upernet_convnext_base_640_160k_ade20k_ss.py	/^        out_indices=[0, 1, 2, 3],$/;"	v
+out_indices	semantic_segmentation/configs/convnext/upernet_convnext_large_640_160k_ade20k_ms.py	/^        out_indices=[0, 1, 2, 3],$/;"	v
+out_indices	semantic_segmentation/configs/convnext/upernet_convnext_large_640_160k_ade20k_ss.py	/^        out_indices=[0, 1, 2, 3],$/;"	v
+out_indices	semantic_segmentation/configs/convnext/upernet_convnext_small_512_160k_ade20k_ms.py	/^        out_indices=[0, 1, 2, 3],$/;"	v
+out_indices	semantic_segmentation/configs/convnext/upernet_convnext_small_512_160k_ade20k_ss.py	/^        out_indices=[0, 1, 2, 3],$/;"	v
+out_indices	semantic_segmentation/configs/convnext/upernet_convnext_tiny_512_160k_ade20k_ms.py	/^        out_indices=[0, 1, 2, 3],$/;"	v
+out_indices	semantic_segmentation/configs/convnext/upernet_convnext_tiny_512_160k_ade20k_ss.py	/^        out_indices=[0, 1, 2, 3],$/;"	v
+out_indices	semantic_segmentation/configs/convnext/upernet_convnext_xlarge_640_160k_ade20k_ms.py	/^        out_indices=[0, 1, 2, 3],$/;"	v
+out_indices	semantic_segmentation/configs/convnext/upernet_convnext_xlarge_640_160k_ade20k_ss.py	/^        out_indices=[0, 1, 2, 3],$/;"	v
+override	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                      override=True,$/;"	v
+override	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                      override=True,$/;"	v
+override	object_detection/configs/convnext/cascade_mask_rcnn_convnext_large_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                      override=True,$/;"	v
+override	object_detection/configs/convnext/cascade_mask_rcnn_convnext_small_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                      override=True,$/;"	v
+override	object_detection/configs/convnext/cascade_mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                      override=True,$/;"	v
+override	object_detection/configs/convnext/cascade_mask_rcnn_convnext_xlarge_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                      override=True,$/;"	v
+override	object_detection/configs/convnext/mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_adamw_3x_coco_in1k.py	/^                      override=True,$/;"	v
+paramwise_cfg	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                 paramwise_cfg={'decay_rate': 0.8,$/;"	v
+paramwise_cfg	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                 paramwise_cfg={'decay_rate': 0.8,$/;"	v
+paramwise_cfg	object_detection/configs/convnext/cascade_mask_rcnn_convnext_large_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                 paramwise_cfg={'decay_rate': 0.7,$/;"	v
+paramwise_cfg	object_detection/configs/convnext/cascade_mask_rcnn_convnext_small_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                 paramwise_cfg={'decay_rate': 0.7,$/;"	v
+paramwise_cfg	object_detection/configs/convnext/cascade_mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                 paramwise_cfg={'decay_rate': 0.7,$/;"	v
+paramwise_cfg	object_detection/configs/convnext/cascade_mask_rcnn_convnext_xlarge_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                 paramwise_cfg={'decay_rate': 0.7,$/;"	v
+paramwise_cfg	object_detection/configs/convnext/mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_adamw_3x_coco_in1k.py	/^                 paramwise_cfg={'decay_rate': 0.95,$/;"	v
+paramwise_cfg	semantic_segmentation/configs/convnext/upernet_convnext_base_512_160k_ade20k_ms.py	/^                 paramwise_cfg={'decay_rate': 0.9,$/;"	v
+paramwise_cfg	semantic_segmentation/configs/convnext/upernet_convnext_base_512_160k_ade20k_ss.py	/^                 paramwise_cfg={'decay_rate': 0.9,$/;"	v
+paramwise_cfg	semantic_segmentation/configs/convnext/upernet_convnext_base_640_160k_ade20k_ms.py	/^                 paramwise_cfg={'decay_rate': 0.9,$/;"	v
+paramwise_cfg	semantic_segmentation/configs/convnext/upernet_convnext_base_640_160k_ade20k_ss.py	/^                 paramwise_cfg={'decay_rate': 0.9,$/;"	v
+paramwise_cfg	semantic_segmentation/configs/convnext/upernet_convnext_large_640_160k_ade20k_ms.py	/^                 paramwise_cfg={'decay_rate': 0.9,$/;"	v
+paramwise_cfg	semantic_segmentation/configs/convnext/upernet_convnext_large_640_160k_ade20k_ss.py	/^                 paramwise_cfg={'decay_rate': 0.9,$/;"	v
+paramwise_cfg	semantic_segmentation/configs/convnext/upernet_convnext_small_512_160k_ade20k_ms.py	/^                 paramwise_cfg={'decay_rate': 0.9,$/;"	v
+paramwise_cfg	semantic_segmentation/configs/convnext/upernet_convnext_small_512_160k_ade20k_ss.py	/^                 paramwise_cfg={'decay_rate': 0.9,$/;"	v
+paramwise_cfg	semantic_segmentation/configs/convnext/upernet_convnext_tiny_512_160k_ade20k_ms.py	/^                 paramwise_cfg={'decay_rate': 0.9,$/;"	v
+paramwise_cfg	semantic_segmentation/configs/convnext/upernet_convnext_tiny_512_160k_ade20k_ss.py	/^                 paramwise_cfg={'decay_rate': 0.9,$/;"	v
+paramwise_cfg	semantic_segmentation/configs/convnext/upernet_convnext_xlarge_640_160k_ade20k_ms.py	/^                 paramwise_cfg={'decay_rate': 0.9,$/;"	v
+paramwise_cfg	semantic_segmentation/configs/convnext/upernet_convnext_xlarge_640_160k_ade20k_ss.py	/^                 paramwise_cfg={'decay_rate': 0.9,$/;"	v
+parse_args	run_with_submitit.py	/^def parse_args():$/;"	f
+parser	main.py	/^    parser = argparse.ArgumentParser('ConvNeXt training and evaluation script', parents=[get_args_parser()])$/;"	v
+policies	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^         policies=[$/;"	v
+policies	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^         policies=[$/;"	v
+policies	object_detection/configs/convnext/cascade_mask_rcnn_convnext_large_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^         policies=[$/;"	v
+policies	object_detection/configs/convnext/cascade_mask_rcnn_convnext_small_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^         policies=[$/;"	v
+policies	object_detection/configs/convnext/cascade_mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^         policies=[$/;"	v
+policies	object_detection/configs/convnext/cascade_mask_rcnn_convnext_xlarge_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^         policies=[$/;"	v
+policies	object_detection/configs/convnext/mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_adamw_3x_coco_in1k.py	/^         policies=[$/;"	v
+pool_scales	semantic_segmentation/configs/_base_/models/upernet_convnext.py	/^        pool_scales=(1, 2, 3, 6),$/;"	v
+pos_fraction	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^                    pos_fraction=0.25,$/;"	v
+pos_fraction	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^                pos_fraction=0.5,$/;"	v
+pos_fraction	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^                pos_fraction=0.25,$/;"	v
+pos_fraction	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^                pos_fraction=0.5,$/;"	v
+pos_iou_thr	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^                    pos_iou_thr=0.5,$/;"	v
+pos_iou_thr	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^                    pos_iou_thr=0.6,$/;"	v
+pos_iou_thr	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^                    pos_iou_thr=0.7,$/;"	v
+pos_iou_thr	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^                pos_iou_thr=0.7,$/;"	v
+pos_iou_thr	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^                pos_iou_thr=0.5,$/;"	v
+pos_iou_thr	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^                pos_iou_thr=0.7,$/;"	v
+pos_weight	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^                pos_weight=-1,$/;"	v
+pos_weight	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^            pos_weight=-1,$/;"	v
+pos_weight	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^            pos_weight=-1,$/;"	v
+pretrained	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^    pretrained=None,$/;"	v
+pretrained	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^    pretrained=None,$/;"	v
+pretrained	semantic_segmentation/configs/_base_/models/upernet_convnext.py	/^    pretrained=None,$/;"	v
+print	utils.py	/^    def print(*args, **kwargs):$/;"	f	function:setup_for_distributed
+ratios	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^            ratios=[0.5, 1.0, 2.0],$/;"	v
+ratios	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^            ratios=[0.5, 1.0, 2.0],$/;"	v
+rcnn	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^        rcnn=[$/;"	v
+rcnn	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^        rcnn=dict($/;"	v
+rcnn	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^        rcnn=dict($/;"	v
+reg_class_agnostic	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^                reg_class_agnostic=True,$/;"	v
+reg_class_agnostic	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^            reg_class_agnostic=False,$/;"	v
+reg_class_agnostic	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                reg_class_agnostic=False,$/;"	v
+reg_class_agnostic	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                reg_class_agnostic=False,$/;"	v
+reg_class_agnostic	object_detection/configs/convnext/cascade_mask_rcnn_convnext_large_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                reg_class_agnostic=False,$/;"	v
+reg_class_agnostic	object_detection/configs/convnext/cascade_mask_rcnn_convnext_small_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                reg_class_agnostic=False,$/;"	v
+reg_class_agnostic	object_detection/configs/convnext/cascade_mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                reg_class_agnostic=False,$/;"	v
+reg_class_agnostic	object_detection/configs/convnext/cascade_mask_rcnn_convnext_xlarge_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                reg_class_agnostic=False,$/;"	v
+reg_decoded_bbox	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                reg_decoded_bbox=True,$/;"	v
+reg_decoded_bbox	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                reg_decoded_bbox=True,$/;"	v
+reg_decoded_bbox	object_detection/configs/convnext/cascade_mask_rcnn_convnext_large_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                reg_decoded_bbox=True,$/;"	v
+reg_decoded_bbox	object_detection/configs/convnext/cascade_mask_rcnn_convnext_small_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                reg_decoded_bbox=True,$/;"	v
+reg_decoded_bbox	object_detection/configs/convnext/cascade_mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                reg_decoded_bbox=True,$/;"	v
+reg_decoded_bbox	object_detection/configs/convnext/cascade_mask_rcnn_convnext_xlarge_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                reg_decoded_bbox=True,$/;"	v
+resume_from	object_detection/configs/_base_/default_runtime.py	/^resume_from = None$/;"	v
+resume_from	semantic_segmentation/configs/_base_/default_runtime.py	/^resume_from = None$/;"	v
+roi_feat_size	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^                roi_feat_size=7,$/;"	v
+roi_feat_size	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^            roi_feat_size=7,$/;"	v
+roi_feat_size	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                roi_feat_size=7,$/;"	v
+roi_feat_size	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                roi_feat_size=7,$/;"	v
+roi_feat_size	object_detection/configs/convnext/cascade_mask_rcnn_convnext_large_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                roi_feat_size=7,$/;"	v
+roi_feat_size	object_detection/configs/convnext/cascade_mask_rcnn_convnext_small_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                roi_feat_size=7,$/;"	v
+roi_feat_size	object_detection/configs/convnext/cascade_mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                roi_feat_size=7,$/;"	v
+roi_feat_size	object_detection/configs/convnext/cascade_mask_rcnn_convnext_xlarge_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                roi_feat_size=7,$/;"	v
+roi_head	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^    roi_head=dict($/;"	v
+roi_head	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^    roi_head=dict($/;"	v
+roi_head	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^    roi_head=dict($/;"	v
+roi_head	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^    roi_head=dict($/;"	v
+roi_head	object_detection/configs/convnext/cascade_mask_rcnn_convnext_large_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^    roi_head=dict($/;"	v
+roi_head	object_detection/configs/convnext/cascade_mask_rcnn_convnext_small_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^    roi_head=dict($/;"	v
+roi_head	object_detection/configs/convnext/cascade_mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^    roi_head=dict($/;"	v
+roi_head	object_detection/configs/convnext/cascade_mask_rcnn_convnext_xlarge_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^    roi_head=dict($/;"	v
+roi_layer	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^            roi_layer=dict(type='RoIAlign', output_size=14, sampling_ratio=0),$/;"	v
+roi_layer	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^            roi_layer=dict(type='RoIAlign', output_size=7, sampling_ratio=0),$/;"	v
+roi_layer	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^            roi_layer=dict(type='RoIAlign', output_size=14, sampling_ratio=0),$/;"	v
+roi_layer	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^            roi_layer=dict(type='RoIAlign', output_size=7, sampling_ratio=0),$/;"	v
+rpn	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^        rpn=dict($/;"	v
+rpn	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^        rpn=dict($/;"	v
+rpn_head	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^    rpn_head=dict($/;"	v
+rpn_head	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^    rpn_head=dict($/;"	v
+rpn_proposal	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^        rpn_proposal=dict($/;"	v
+rpn_proposal	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^        rpn_proposal=dict($/;"	v
+runner	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^runner = dict(type='EpochBasedRunnerAmp', max_epochs=36)$/;"	v
+runner	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^runner = dict(type='EpochBasedRunnerAmp', max_epochs=36)$/;"	v
+runner	object_detection/configs/convnext/cascade_mask_rcnn_convnext_large_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^runner = dict(type='EpochBasedRunnerAmp', max_epochs=36)$/;"	v
+runner	object_detection/configs/convnext/cascade_mask_rcnn_convnext_small_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^runner = dict(type='EpochBasedRunnerAmp', max_epochs=36)$/;"	v
+runner	object_detection/configs/convnext/cascade_mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^runner = dict(type='EpochBasedRunnerAmp', max_epochs=36)$/;"	v
+runner	object_detection/configs/convnext/cascade_mask_rcnn_convnext_xlarge_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^runner = dict(type='EpochBasedRunnerAmp', max_epochs=36)$/;"	v
+runner	object_detection/configs/convnext/mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_adamw_3x_coco_in1k.py	/^runner = dict(type='EpochBasedRunnerAmp', max_epochs=36)$/;"	v
+runner	semantic_segmentation/configs/convnext/upernet_convnext_base_512_160k_ade20k_ms.py	/^runner = dict(type='IterBasedRunnerAmp')$/;"	v
+runner	semantic_segmentation/configs/convnext/upernet_convnext_base_512_160k_ade20k_ss.py	/^runner = dict(type='IterBasedRunnerAmp')$/;"	v
+runner	semantic_segmentation/configs/convnext/upernet_convnext_base_640_160k_ade20k_ms.py	/^runner = dict(type='IterBasedRunnerAmp')$/;"	v
+runner	semantic_segmentation/configs/convnext/upernet_convnext_base_640_160k_ade20k_ss.py	/^runner = dict(type='IterBasedRunnerAmp')$/;"	v
+runner	semantic_segmentation/configs/convnext/upernet_convnext_large_640_160k_ade20k_ms.py	/^runner = dict(type='IterBasedRunnerAmp')$/;"	v
+runner	semantic_segmentation/configs/convnext/upernet_convnext_large_640_160k_ade20k_ss.py	/^runner = dict(type='IterBasedRunnerAmp')$/;"	v
+runner	semantic_segmentation/configs/convnext/upernet_convnext_small_512_160k_ade20k_ms.py	/^runner = dict(type='IterBasedRunnerAmp')$/;"	v
+runner	semantic_segmentation/configs/convnext/upernet_convnext_small_512_160k_ade20k_ss.py	/^runner = dict(type='IterBasedRunnerAmp')$/;"	v
+runner	semantic_segmentation/configs/convnext/upernet_convnext_tiny_512_160k_ade20k_ms.py	/^runner = dict(type='IterBasedRunnerAmp')$/;"	v
+runner	semantic_segmentation/configs/convnext/upernet_convnext_tiny_512_160k_ade20k_ss.py	/^runner = dict(type='IterBasedRunnerAmp')$/;"	v
+runner	semantic_segmentation/configs/convnext/upernet_convnext_xlarge_640_160k_ade20k_ms.py	/^runner = dict(type='IterBasedRunnerAmp')$/;"	v
+runner	semantic_segmentation/configs/convnext/upernet_convnext_xlarge_640_160k_ade20k_ss.py	/^runner = dict(type='IterBasedRunnerAmp')$/;"	v
+sampler	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^                sampler=dict($/;"	v
+sampler	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^            sampler=dict($/;"	v
+sampler	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^            sampler=dict($/;"	v
+save_checkpoint	object_detection/mmcv_custom/runner/checkpoint.py	/^def save_checkpoint(model, filename, optimizer=None, meta=None):$/;"	f
+save_checkpoint	semantic_segmentation/mmcv_custom/apex_runner/checkpoint.py	/^def save_checkpoint(model, filename, optimizer=None, meta=None):$/;"	f
+save_model	utils.py	/^def save_model(args, epoch, model, model_without_ddp, optimizer, loss_scaler, model_ema=None):$/;"	f
+save_on_master	utils.py	/^def save_on_master(*args, **kwargs):$/;"	f
+scales	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^            scales=[8],$/;"	v
+scales	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^            scales=[8],$/;"	v
+score_thr	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^            score_thr=0.05,$/;"	v
+score_thr	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^            score_thr=0.05,$/;"	v
+set_step	utils.py	/^    def set_step(self, step=None):$/;"	m	class:TensorboardLogger
+set_steps	utils.py	/^    def set_steps(self):$/;"	m	class:WandbLogger
+setup_for_distributed	utils.py	/^def setup_for_distributed(is_master):$/;"	f
+stage_loss_weights	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^        stage_loss_weights=[1, 0.5, 0.25],$/;"	v
+state_dict	utils.py	/^    def state_dict(self):$/;"	m	class:NativeScalerWithGradNormCount
+state_dict_key	utils.py	/^    state_dict_key = "amp_scaler"$/;"	v	class:NativeScalerWithGradNormCount
+str2bool	main.py	/^def str2bool(v):$/;"	f
+strides	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^            strides=[4, 8, 16, 32, 64]),$/;"	v
+strides	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^            strides=[4, 8, 16, 32, 64]),$/;"	v
+synchronize_between_processes	utils.py	/^    def synchronize_between_processes(self):$/;"	m	class:MetricLogger
+synchronize_between_processes	utils.py	/^    def synchronize_between_processes(self):$/;"	m	class:SmoothedValue
+target_means	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^                    target_means=[0., 0., 0., 0.],$/;"	v
+target_means	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^            target_means=[.0, .0, .0, .0],$/;"	v
+target_means	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^                target_means=[0., 0., 0., 0.],$/;"	v
+target_means	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^            target_means=[.0, .0, .0, .0],$/;"	v
+target_means	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                    target_means=[0., 0., 0., 0.],$/;"	v
+target_means	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                    target_means=[0., 0., 0., 0.],$/;"	v
+target_means	object_detection/configs/convnext/cascade_mask_rcnn_convnext_large_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                    target_means=[0., 0., 0., 0.],$/;"	v
+target_means	object_detection/configs/convnext/cascade_mask_rcnn_convnext_small_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                    target_means=[0., 0., 0., 0.],$/;"	v
+target_means	object_detection/configs/convnext/cascade_mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                    target_means=[0., 0., 0., 0.],$/;"	v
+target_means	object_detection/configs/convnext/cascade_mask_rcnn_convnext_xlarge_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                    target_means=[0., 0., 0., 0.],$/;"	v
+target_stds	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^                    target_stds=[0.033, 0.033, 0.067, 0.067]),$/;"	v
+target_stds	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^                    target_stds=[0.05, 0.05, 0.1, 0.1]),$/;"	v
+target_stds	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^                    target_stds=[0.1, 0.1, 0.2, 0.2]),$/;"	v
+target_stds	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^            target_stds=[1.0, 1.0, 1.0, 1.0]),$/;"	v
+target_stds	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^                target_stds=[0.1, 0.1, 0.2, 0.2]),$/;"	v
+target_stds	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^            target_stds=[1.0, 1.0, 1.0, 1.0]),$/;"	v
+target_stds	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                    target_stds=[0.033, 0.033, 0.067, 0.067]),$/;"	v
+target_stds	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                    target_stds=[0.05, 0.05, 0.1, 0.1]),$/;"	v
+target_stds	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                    target_stds=[0.1, 0.1, 0.2, 0.2]),$/;"	v
+target_stds	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                    target_stds=[0.033, 0.033, 0.067, 0.067]),$/;"	v
+target_stds	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                    target_stds=[0.05, 0.05, 0.1, 0.1]),$/;"	v
+target_stds	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                    target_stds=[0.1, 0.1, 0.2, 0.2]),$/;"	v
+target_stds	object_detection/configs/convnext/cascade_mask_rcnn_convnext_large_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                    target_stds=[0.033, 0.033, 0.067, 0.067]),$/;"	v
+target_stds	object_detection/configs/convnext/cascade_mask_rcnn_convnext_large_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                    target_stds=[0.05, 0.05, 0.1, 0.1]),$/;"	v
+target_stds	object_detection/configs/convnext/cascade_mask_rcnn_convnext_large_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                    target_stds=[0.1, 0.1, 0.2, 0.2]),$/;"	v
+target_stds	object_detection/configs/convnext/cascade_mask_rcnn_convnext_small_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                    target_stds=[0.033, 0.033, 0.067, 0.067]),$/;"	v
+target_stds	object_detection/configs/convnext/cascade_mask_rcnn_convnext_small_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                    target_stds=[0.05, 0.05, 0.1, 0.1]),$/;"	v
+target_stds	object_detection/configs/convnext/cascade_mask_rcnn_convnext_small_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                    target_stds=[0.1, 0.1, 0.2, 0.2]),$/;"	v
+target_stds	object_detection/configs/convnext/cascade_mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                    target_stds=[0.033, 0.033, 0.067, 0.067]),$/;"	v
+target_stds	object_detection/configs/convnext/cascade_mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                    target_stds=[0.05, 0.05, 0.1, 0.1]),$/;"	v
+target_stds	object_detection/configs/convnext/cascade_mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                    target_stds=[0.1, 0.1, 0.2, 0.2]),$/;"	v
+target_stds	object_detection/configs/convnext/cascade_mask_rcnn_convnext_xlarge_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                    target_stds=[0.033, 0.033, 0.067, 0.067]),$/;"	v
+target_stds	object_detection/configs/convnext/cascade_mask_rcnn_convnext_xlarge_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                    target_stds=[0.05, 0.05, 0.1, 0.1]),$/;"	v
+target_stds	object_detection/configs/convnext/cascade_mask_rcnn_convnext_xlarge_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                    target_stds=[0.1, 0.1, 0.2, 0.2]),$/;"	v
+test_cfg	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^    test_cfg = dict($/;"	v
+test_cfg	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^    test_cfg=dict($/;"	v
+test_cfg	semantic_segmentation/configs/_base_/models/upernet_convnext.py	/^    test_cfg=dict(mode='whole'))$/;"	v
+test_cfg	semantic_segmentation/configs/convnext/upernet_convnext_base_512_160k_ade20k_ss.py	/^    test_cfg = dict(mode='slide', crop_size=crop_size, stride=(341, 341)),$/;"	v
+test_cfg	semantic_segmentation/configs/convnext/upernet_convnext_base_640_160k_ade20k_ss.py	/^    test_cfg = dict(mode='slide', crop_size=crop_size, stride=(426, 426)),$/;"	v
+test_cfg	semantic_segmentation/configs/convnext/upernet_convnext_large_640_160k_ade20k_ss.py	/^    test_cfg = dict(mode='slide', crop_size=crop_size, stride=(426, 426)),$/;"	v
+test_cfg	semantic_segmentation/configs/convnext/upernet_convnext_small_512_160k_ade20k_ss.py	/^    test_cfg = dict(mode='slide', crop_size=crop_size, stride=(341, 341)),$/;"	v
+test_cfg	semantic_segmentation/configs/convnext/upernet_convnext_tiny_512_160k_ade20k_ss.py	/^    test_cfg = dict(mode='slide', crop_size=crop_size, stride=(341, 341)),$/;"	v
+test_cfg	semantic_segmentation/configs/convnext/upernet_convnext_xlarge_640_160k_ade20k_ss.py	/^    test_cfg = dict(mode='slide', crop_size=crop_size, stride=(426, 426)),$/;"	v
+train_cfg	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^    train_cfg = dict($/;"	v
+train_cfg	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^    train_cfg=dict($/;"	v
+train_cfg	semantic_segmentation/configs/_base_/models/upernet_convnext.py	/^    train_cfg=dict(),$/;"	v
+train_one_epoch	engine.py	/^def train_one_epoch(model: torch.nn.Module, criterion: torch.nn.Module,$/;"	f
+train_pipeline	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^train_pipeline = [$/;"	v
+train_pipeline	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^train_pipeline = [$/;"	v
+train_pipeline	object_detection/configs/convnext/cascade_mask_rcnn_convnext_large_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^train_pipeline = [$/;"	v
+train_pipeline	object_detection/configs/convnext/cascade_mask_rcnn_convnext_small_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^train_pipeline = [$/;"	v
+train_pipeline	object_detection/configs/convnext/cascade_mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^train_pipeline = [$/;"	v
+train_pipeline	object_detection/configs/convnext/cascade_mask_rcnn_convnext_xlarge_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^train_pipeline = [$/;"	v
+train_pipeline	object_detection/configs/convnext/mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_adamw_3x_coco_in1k.py	/^train_pipeline = [$/;"	v
+type	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^                    type='CrossEntropyLoss',$/;"	v
+type	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^                    type='DeltaXYWHBBoxCoder',$/;"	v
+type	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^                    type='MaxIoUAssigner',$/;"	v
+type	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^                    type='RandomSampler',$/;"	v
+type	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^                type='MaxIoUAssigner',$/;"	v
+type	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^                type='RandomSampler',$/;"	v
+type	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^                type='Shared2FCBBoxHead',$/;"	v
+type	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^            type='AnchorGenerator',$/;"	v
+type	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^            type='DeltaXYWHBBoxCoder',$/;"	v
+type	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^            type='FCNMaskHead',$/;"	v
+type	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^            type='SingleRoIExtractor',$/;"	v
+type	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^        type='CascadeRoIHead',$/;"	v
+type	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^        type='ConvNeXt',$/;"	v
+type	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^        type='FPN',$/;"	v
+type	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^        type='RPNHead',$/;"	v
+type	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^    type='CascadeRCNN',$/;"	v
+type	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^                type='DeltaXYWHBBoxCoder',$/;"	v
+type	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^                type='MaxIoUAssigner',$/;"	v
+type	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^                type='RandomSampler',$/;"	v
+type	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^            type='AnchorGenerator',$/;"	v
+type	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^            type='DeltaXYWHBBoxCoder',$/;"	v
+type	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^            type='FCNMaskHead',$/;"	v
+type	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^            type='Shared2FCBBoxHead',$/;"	v
+type	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^            type='SingleRoIExtractor',$/;"	v
+type	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^        type='ConvNeXt',$/;"	v
+type	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^        type='FPN',$/;"	v
+type	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^        type='RPNHead',$/;"	v
+type	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^        type='StandardRoIHead',$/;"	v
+type	object_detection/configs/_base_/models/mask_rcnn_convnext_fpn.py	/^    type='MaskRCNN',$/;"	v
+type	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                    type='DeltaXYWHBBoxCoder',$/;"	v
+type	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                type='ConvFCBBoxHead',$/;"	v
+type	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^    type="DistOptimizerHook",$/;"	v
+type	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                    type='DeltaXYWHBBoxCoder',$/;"	v
+type	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                type='ConvFCBBoxHead',$/;"	v
+type	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^    type="DistOptimizerHook",$/;"	v
+type	object_detection/configs/convnext/cascade_mask_rcnn_convnext_large_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                    type='DeltaXYWHBBoxCoder',$/;"	v
+type	object_detection/configs/convnext/cascade_mask_rcnn_convnext_large_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                type='ConvFCBBoxHead',$/;"	v
+type	object_detection/configs/convnext/cascade_mask_rcnn_convnext_large_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^    type="DistOptimizerHook",$/;"	v
+type	object_detection/configs/convnext/cascade_mask_rcnn_convnext_small_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                    type='DeltaXYWHBBoxCoder',$/;"	v
+type	object_detection/configs/convnext/cascade_mask_rcnn_convnext_small_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                type='ConvFCBBoxHead',$/;"	v
+type	object_detection/configs/convnext/cascade_mask_rcnn_convnext_small_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^    type="DistOptimizerHook",$/;"	v
+type	object_detection/configs/convnext/cascade_mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                    type='DeltaXYWHBBoxCoder',$/;"	v
+type	object_detection/configs/convnext/cascade_mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^                type='ConvFCBBoxHead',$/;"	v
+type	object_detection/configs/convnext/cascade_mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^    type="DistOptimizerHook",$/;"	v
+type	object_detection/configs/convnext/cascade_mask_rcnn_convnext_xlarge_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                    type='DeltaXYWHBBoxCoder',$/;"	v
+type	object_detection/configs/convnext/cascade_mask_rcnn_convnext_xlarge_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^                type='ConvFCBBoxHead',$/;"	v
+type	object_detection/configs/convnext/cascade_mask_rcnn_convnext_xlarge_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^    type="DistOptimizerHook",$/;"	v
+type	object_detection/configs/convnext/mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_adamw_3x_coco_in1k.py	/^    type="DistOptimizerHook",$/;"	v
+type	semantic_segmentation/configs/_base_/models/upernet_convnext.py	/^        type='ConvNeXt',$/;"	v
+type	semantic_segmentation/configs/_base_/models/upernet_convnext.py	/^        type='FCNHead',$/;"	v
+type	semantic_segmentation/configs/_base_/models/upernet_convnext.py	/^        type='UPerHead',$/;"	v
+type	semantic_segmentation/configs/_base_/models/upernet_convnext.py	/^    type='EncoderDecoder',$/;"	v
+type	semantic_segmentation/configs/convnext/upernet_convnext_base_512_160k_ade20k_ms.py	/^        type='ConvNeXt',$/;"	v
+type	semantic_segmentation/configs/convnext/upernet_convnext_base_512_160k_ade20k_ms.py	/^    type="DistOptimizerHook",$/;"	v
+type	semantic_segmentation/configs/convnext/upernet_convnext_base_512_160k_ade20k_ss.py	/^        type='ConvNeXt',$/;"	v
+type	semantic_segmentation/configs/convnext/upernet_convnext_base_512_160k_ade20k_ss.py	/^    type="DistOptimizerHook",$/;"	v
+type	semantic_segmentation/configs/convnext/upernet_convnext_base_640_160k_ade20k_ms.py	/^        type='ConvNeXt',$/;"	v
+type	semantic_segmentation/configs/convnext/upernet_convnext_base_640_160k_ade20k_ms.py	/^    type="DistOptimizerHook",$/;"	v
+type	semantic_segmentation/configs/convnext/upernet_convnext_base_640_160k_ade20k_ss.py	/^        type='ConvNeXt',$/;"	v
+type	semantic_segmentation/configs/convnext/upernet_convnext_base_640_160k_ade20k_ss.py	/^    type="DistOptimizerHook",$/;"	v
+type	semantic_segmentation/configs/convnext/upernet_convnext_large_640_160k_ade20k_ms.py	/^        type='ConvNeXt',$/;"	v
+type	semantic_segmentation/configs/convnext/upernet_convnext_large_640_160k_ade20k_ms.py	/^    type="DistOptimizerHook",$/;"	v
+type	semantic_segmentation/configs/convnext/upernet_convnext_large_640_160k_ade20k_ss.py	/^        type='ConvNeXt',$/;"	v
+type	semantic_segmentation/configs/convnext/upernet_convnext_large_640_160k_ade20k_ss.py	/^    type="DistOptimizerHook",$/;"	v
+type	semantic_segmentation/configs/convnext/upernet_convnext_small_512_160k_ade20k_ms.py	/^    type="DistOptimizerHook",$/;"	v
+type	semantic_segmentation/configs/convnext/upernet_convnext_small_512_160k_ade20k_ss.py	/^    type="DistOptimizerHook",$/;"	v
+type	semantic_segmentation/configs/convnext/upernet_convnext_tiny_512_160k_ade20k_ms.py	/^        type='ConvNeXt',$/;"	v
+type	semantic_segmentation/configs/convnext/upernet_convnext_tiny_512_160k_ade20k_ms.py	/^    type="DistOptimizerHook",$/;"	v
+type	semantic_segmentation/configs/convnext/upernet_convnext_tiny_512_160k_ade20k_ss.py	/^        type='ConvNeXt',$/;"	v
+type	semantic_segmentation/configs/convnext/upernet_convnext_tiny_512_160k_ade20k_ss.py	/^    type="DistOptimizerHook",$/;"	v
+type	semantic_segmentation/configs/convnext/upernet_convnext_xlarge_640_160k_ade20k_ms.py	/^        type='ConvNeXt',$/;"	v
+type	semantic_segmentation/configs/convnext/upernet_convnext_xlarge_640_160k_ade20k_ms.py	/^    type="DistOptimizerHook",$/;"	v
+type	semantic_segmentation/configs/convnext/upernet_convnext_xlarge_640_160k_ade20k_ss.py	/^        type='ConvNeXt',$/;"	v
+type	semantic_segmentation/configs/convnext/upernet_convnext_xlarge_640_160k_ade20k_ss.py	/^    type="DistOptimizerHook",$/;"	v
+update	utils.py	/^    def update(self, **kwargs):$/;"	m	class:MetricLogger
+update	utils.py	/^    def update(self, head='scalar', step=None, **kwargs):$/;"	m	class:TensorboardLogger
+update	utils.py	/^    def update(self, value, n=1):$/;"	m	class:SmoothedValue
+update_interval	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^    update_interval=1,$/;"	v
+update_interval	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^    update_interval=1,$/;"	v
+update_interval	object_detection/configs/convnext/cascade_mask_rcnn_convnext_large_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^    update_interval=1,$/;"	v
+update_interval	object_detection/configs/convnext/cascade_mask_rcnn_convnext_small_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^    update_interval=1,$/;"	v
+update_interval	object_detection/configs/convnext/cascade_mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^    update_interval=1,$/;"	v
+update_interval	object_detection/configs/convnext/cascade_mask_rcnn_convnext_xlarge_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^    update_interval=1,$/;"	v
+update_interval	object_detection/configs/convnext/mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_adamw_3x_coco_in1k.py	/^    update_interval=1,$/;"	v
+update_interval	semantic_segmentation/configs/convnext/upernet_convnext_base_512_160k_ade20k_ms.py	/^    update_interval=1,$/;"	v
+update_interval	semantic_segmentation/configs/convnext/upernet_convnext_base_512_160k_ade20k_ss.py	/^    update_interval=1,$/;"	v
+update_interval	semantic_segmentation/configs/convnext/upernet_convnext_base_640_160k_ade20k_ms.py	/^    update_interval=1,$/;"	v
+update_interval	semantic_segmentation/configs/convnext/upernet_convnext_base_640_160k_ade20k_ss.py	/^    update_interval=1,$/;"	v
+update_interval	semantic_segmentation/configs/convnext/upernet_convnext_large_640_160k_ade20k_ms.py	/^    update_interval=1,$/;"	v
+update_interval	semantic_segmentation/configs/convnext/upernet_convnext_large_640_160k_ade20k_ss.py	/^    update_interval=1,$/;"	v
+update_interval	semantic_segmentation/configs/convnext/upernet_convnext_small_512_160k_ade20k_ms.py	/^    update_interval=1,$/;"	v
+update_interval	semantic_segmentation/configs/convnext/upernet_convnext_small_512_160k_ade20k_ss.py	/^    update_interval=1,$/;"	v
+update_interval	semantic_segmentation/configs/convnext/upernet_convnext_tiny_512_160k_ade20k_ms.py	/^    update_interval=1,$/;"	v
+update_interval	semantic_segmentation/configs/convnext/upernet_convnext_tiny_512_160k_ade20k_ss.py	/^    update_interval=1,$/;"	v
+update_interval	semantic_segmentation/configs/convnext/upernet_convnext_xlarge_640_160k_ade20k_ms.py	/^    update_interval=1,$/;"	v
+update_interval	semantic_segmentation/configs/convnext/upernet_convnext_xlarge_640_160k_ade20k_ss.py	/^    update_interval=1,$/;"	v
+use_fp16	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^    use_fp16=True,$/;"	v
+use_fp16	object_detection/configs/convnext/cascade_mask_rcnn_convnext_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^    use_fp16=True,$/;"	v
+use_fp16	object_detection/configs/convnext/cascade_mask_rcnn_convnext_large_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^    use_fp16=False,$/;"	v
+use_fp16	object_detection/configs/convnext/cascade_mask_rcnn_convnext_small_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^    use_fp16=True,$/;"	v
+use_fp16	object_detection/configs/convnext/cascade_mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in1k.py	/^    use_fp16=True,$/;"	v
+use_fp16	object_detection/configs/convnext/cascade_mask_rcnn_convnext_xlarge_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco_in22k.py	/^    use_fp16=False,$/;"	v
+use_fp16	object_detection/configs/convnext/mask_rcnn_convnext_tiny_patch4_window7_mstrain_480-800_adamw_3x_coco_in1k.py	/^    use_fp16=True,$/;"	v
+use_fp16	semantic_segmentation/configs/convnext/upernet_convnext_base_512_160k_ade20k_ms.py	/^    use_fp16=True,$/;"	v
+use_fp16	semantic_segmentation/configs/convnext/upernet_convnext_base_512_160k_ade20k_ss.py	/^    use_fp16=True,$/;"	v
+use_fp16	semantic_segmentation/configs/convnext/upernet_convnext_base_640_160k_ade20k_ms.py	/^    use_fp16=True,$/;"	v
+use_fp16	semantic_segmentation/configs/convnext/upernet_convnext_base_640_160k_ade20k_ss.py	/^    use_fp16=True,$/;"	v
+use_fp16	semantic_segmentation/configs/convnext/upernet_convnext_large_640_160k_ade20k_ms.py	/^    use_fp16=False,$/;"	v
+use_fp16	semantic_segmentation/configs/convnext/upernet_convnext_large_640_160k_ade20k_ss.py	/^    use_fp16=False,$/;"	v
+use_fp16	semantic_segmentation/configs/convnext/upernet_convnext_small_512_160k_ade20k_ms.py	/^    use_fp16=True,$/;"	v
+use_fp16	semantic_segmentation/configs/convnext/upernet_convnext_small_512_160k_ade20k_ss.py	/^    use_fp16=True,$/;"	v
+use_fp16	semantic_segmentation/configs/convnext/upernet_convnext_tiny_512_160k_ade20k_ms.py	/^    use_fp16=True,$/;"	v
+use_fp16	semantic_segmentation/configs/convnext/upernet_convnext_tiny_512_160k_ade20k_ss.py	/^    use_fp16=True,$/;"	v
+use_fp16	semantic_segmentation/configs/convnext/upernet_convnext_xlarge_640_160k_ade20k_ms.py	/^    use_fp16=False,$/;"	v
+use_fp16	semantic_segmentation/configs/convnext/upernet_convnext_xlarge_640_160k_ade20k_ss.py	/^    use_fp16=False,$/;"	v
+use_sigmoid	object_detection/configs/_base_/models/cascade_mask_rcnn_convnext_fpn.py	/^                    use_sigmoid=False,$/;"	v
+value	utils.py	/^    def value(self):$/;"	m	class:SmoothedValue
+warmup	semantic_segmentation/configs/convnext/upernet_convnext_base_512_160k_ade20k_ms.py	/^                 warmup='linear',$/;"	v
+warmup	semantic_segmentation/configs/convnext/upernet_convnext_base_512_160k_ade20k_ss.py	/^                 warmup='linear',$/;"	v
+warmup	semantic_segmentation/configs/convnext/upernet_convnext_base_640_160k_ade20k_ms.py	/^                 warmup='linear',$/;"	v
+warmup	semantic_segmentation/configs/convnext/upernet_convnext_base_640_160k_ade20k_ss.py	/^                 warmup='linear',$/;"	v
+warmup	semantic_segmentation/configs/convnext/upernet_convnext_large_640_160k_ade20k_ms.py	/^                 warmup='linear',$/;"	v
+warmup	semantic_segmentation/configs/convnext/upernet_convnext_large_640_160k_ade20k_ss.py	/^                 warmup='linear',$/;"	v
+warmup	semantic_segmentation/configs/convnext/upernet_convnext_small_512_160k_ade20k_ms.py	/^                 warmup='linear',$/;"	v
+warmup	semantic_segmentation/configs/convnext/upernet_convnext_small_512_160k_ade20k_ss.py	/^                 warmup='linear',$/;"	v
+warmup	semantic_segmentation/configs/convnext/upernet_convnext_tiny_512_160k_ade20k_ms.py	/^                 warmup='linear',$/;"	v
+warmup	semantic_segmentation/configs/convnext/upernet_convnext_tiny_512_160k_ade20k_ss.py	/^                 warmup='linear',$/;"	v
+warmup	semantic_segmentation/configs/convnext/upernet_convnext_xlarge_640_160k_ade20k_ms.py	/^                 warmup='linear',$/;"	v
+warmup	semantic_segmentation/configs/convnext/upernet_convnext_xlarge_640_160k_ade20k_ss.py	/^                 warmup='linear',$/;"	v
+warmup_iters	semantic_segmentation/configs/convnext/upernet_convnext_base_512_160k_ade20k_ms.py	/^                 warmup_iters=1500,$/;"	v
+warmup_iters	semantic_segmentation/configs/convnext/upernet_convnext_base_512_160k_ade20k_ss.py	/^                 warmup_iters=1500,$/;"	v
+warmup_iters	semantic_segmentation/configs/convnext/upernet_convnext_base_640_160k_ade20k_ms.py	/^                 warmup_iters=1500,$/;"	v
+warmup_iters	semantic_segmentation/configs/convnext/upernet_convnext_base_640_160k_ade20k_ss.py	/^                 warmup_iters=1500,$/;"	v
+warmup_iters	semantic_segmentation/configs/convnext/upernet_convnext_large_640_160k_ade20k_ms.py	/^                 warmup_iters=1500,$/;"	v
+warmup_iters	semantic_segmentation/configs/convnext/upernet_convnext_large_640_160k_ade20k_ss.py	/^                 warmup_iters=1500,$/;"	v
+warmup_iters	semantic_segmentation/configs/convnext/upernet_convnext_small_512_160k_ade20k_ms.py	/^                 warmup_iters=1500,$/;"	v
+warmup_iters	semantic_segmentation/configs/convnext/upernet_convnext_small_512_160k_ade20k_ss.py	/^                 warmup_iters=1500,$/;"	v
+warmup_iters	semantic_segmentation/configs/convnext/upernet_convnext_tiny_512_160k_ade20k_ms.py	/^                 warmup_iters=1500,$/;"	v
+warmup_iters	semantic_segmentation/configs/convnext/upernet_convnext_tiny_512_160k_ade20k_ss.py	/^                 warmup_iters=1500,$/;"	v
+warmup_iters	semantic_segmentation/configs/convnext/upernet_convnext_xlarge_640_160k_ade20k_ms.py	/^                 warmup_iters=1500,$/;"	v
+warmup_iters	semantic_segmentation/configs/convnext/upernet_convnext_xlarge_640_160k_ade20k_ss.py	/^                 warmup_iters=1500,$/;"	v
+warmup_ratio	semantic_segmentation/configs/convnext/upernet_convnext_base_512_160k_ade20k_ms.py	/^                 warmup_ratio=1e-6,$/;"	v
+warmup_ratio	semantic_segmentation/configs/convnext/upernet_convnext_base_512_160k_ade20k_ss.py	/^                 warmup_ratio=1e-6,$/;"	v
+warmup_ratio	semantic_segmentation/configs/convnext/upernet_convnext_base_640_160k_ade20k_ms.py	/^                 warmup_ratio=1e-6,$/;"	v
+warmup_ratio	semantic_segmentation/configs/convnext/upernet_convnext_base_640_160k_ade20k_ss.py	/^                 warmup_ratio=1e-6,$/;"	v
+warmup_ratio	semantic_segmentation/configs/convnext/upernet_convnext_large_640_160k_ade20k_ms.py	/^                 warmup_ratio=1e-6,$/;"	v
+warmup_ratio	semantic_segmentation/configs/convnext/upernet_convnext_large_640_160k_ade20k_ss.py	/^                 warmup_ratio=1e-6,$/;"	v
+warmup_ratio	semantic_segmentation/configs/convnext/upernet_convnext_small_512_160k_ade20k_ms.py	/^                 warmup_ratio=1e-6,$/;"	v
+warmup_ratio	semantic_segmentation/configs/convnext/upernet_convnext_small_512_160k_ade20k_ss.py	/^                 warmup_ratio=1e-6,$/;"	v
+warmup_ratio	semantic_segmentation/configs/convnext/upernet_convnext_tiny_512_160k_ade20k_ms.py	/^                 warmup_ratio=1e-6,$/;"	v
+warmup_ratio	semantic_segmentation/configs/convnext/upernet_convnext_tiny_512_160k_ade20k_ss.py	/^                 warmup_ratio=1e-6,$/;"	v
+warmup_ratio	semantic_segmentation/configs/convnext/upernet_convnext_xlarge_640_160k_ade20k_ms.py	/^                 warmup_ratio=1e-6,$/;"	v
+warmup_ratio	semantic_segmentation/configs/convnext/upernet_convnext_xlarge_640_160k_ade20k_ss.py	/^                 warmup_ratio=1e-6,$/;"	v
+workflow	object_detection/configs/_base_/default_runtime.py	/^workflow = [('train', 1)]$/;"	v
+workflow	semantic_segmentation/configs/_base_/default_runtime.py	/^workflow = [('train', 1)]$/;"	v
