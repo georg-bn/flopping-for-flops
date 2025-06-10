@@ -81,7 +81,7 @@ python test_equivariance.py
 ### Training
 We use [submitit](https://github.com/facebookincubator/submitit) for training, but you might as well use `torchrun`. The exact scripts used to reproduce the models in the paper are provided in the [experiments folder](experiments). For a smooth experience, we recommend setting the `args.data_path` variable to the path to your imagenet folder before attempting to run with submitit.
 
-Here is an example on how we e.g. train an equivariant ViT-B on 32 A100:80GB using submitit:
+Here is an example on how we e.g. train an equivariant ViT-H on 32 A100:40GB using submitit:
 ```bash
 python deit/run_with_submitit.py \
     --model d2_deit_huge_patch14_LS \
