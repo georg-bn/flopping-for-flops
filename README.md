@@ -1,6 +1,7 @@
 # 
 <p align="center">
   <h1 align="center"> <ins>Flopping for FLOPs</ins> 🪞:<br>Leveraging equivariance for computational efficiency</h1>
+  <h3 align="center"> ICML 2025 Spotlight </h3>
   <p align="center">
     <a href="https://scholar.google.com/citations?user=FUE3Wd0AAAAJ">Georg Bökman</a>
     ·
